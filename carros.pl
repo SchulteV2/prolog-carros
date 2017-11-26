@@ -24,224 +24,224 @@ fabricado(chrysler, estados-unidos).
 fabricado(suruba, estados-unidos).
 fabricado(tesla, estados-unidos).
 
-modelo(phantom, rolls-royce).
-modelo(wraith, rolls-royce).
-modelo(dawn, rolls-royce).
-modelo(ghost, rolls-royce).
-modelo(cullinan, rolls-royce).
-modelo(sweptail, rolls-royce).
+modelo(phantom, rolls-royce). % gasolina
+modelo(wraith, rolls-royce). % gasolina
+modelo(dawn, rolls-royce). % gasolina
+modelo(ghost, rolls-royce). % gasolina
+modelo(cullinan, rolls-royce). % gasolina
+modelo(sweptail, rolls-royce). % gasolina
 
-modelo(208, pegeout).
-modelo(308, pegeout).
-modelo(408, pegeout).
-modelo(2008, pegeout).
-modelo(partner, pegeout).
+modelo(208, pegeout). % alcool/gasolina
+modelo(308, pegeout). % alcool/gasolina
+modelo(408, pegeout). % alcool/gasolina
+modelo(2008, pegeout). % alcool/gasolina
+modelo(partner, pegeout). % alcool/gasolina
 
-modelo(ghibli, maserati).
-modelo(levante, maserati).
-modelo(quattroporte, maserati).
-modelo(granTurismo, maserati).
-modelo(granCabrio, maserati).
+modelo(ghibli, maserati). % gasolina
+modelo(levante, maserati). % gasolina
+modelo(quattroporte, maserati). % gasolina
+modelo(granTurismo, maserati). % gasolina
+modelo(granCabrio, maserati). % gasolina
 
-modelo(488-spider, ferrari).
-modelo(488-gTB, ferrari).
-modelo(812-superFast, ferrari).
-modelo(portofino, ferrari).
-modelo(gtc4Lusso-t, ferrari).
-modelo(gtc4Lusso, ferrari).
-modelo(f12tdf, ferrari).
-modelo(laFerrari, ferrari).
-modelo(laFerrari-aperta, ferrari).
+modelo(488-spider, ferrari). % gasolina
+modelo(488-gTB, ferrari). % gasolina
+modelo(812-superFast, ferrari). % gasolina
+modelo(portofino, ferrari). % gasolina
+modelo(gtc4Lusso-t, ferrari). % gasolina
+modelo(gtc4Lusso, ferrari). % gasolina
+modelo(f12tdf, ferrari). % gasolina
+modelo(laFerrari, ferrari). % gasolina
+modelo(laFerrari-aperta, ferrari). % gasolina
 
-modelo(m140i, bmw).
-modelo(m240i, bmw).
-modelo(x1, bmw).
-modelo(x3, bmw).
-modelo(x4, bmw).
-modelo(x5, bmw).
-modelo(x6, bmw).
-modelo(m2, bmw).
-modelo(m3, bmw).
-modelo(m6, bmw).
-modelo(x6-m, bmw).
-modelo(i3, bmw).
-modelo(i8, bmw).
+modelo(m140i, bmw). % alcool/gasolina
+modelo(m240i, bmw). % alcool/gasolina
+modelo(x1, bmw). % alcool/gasolina
+modelo(x3, bmw). % gasolina
+modelo(x4, bmw). % gasolina
+modelo(x5, bmw). % diesel
+modelo(x6, bmw). % gasolina
+modelo(m2, bmw). % gasolina
+modelo(m3, bmw). % gasolina
+modelo(m6, bmw). % gasolina
+modelo(x6-m, bmw). % gasolina
+modelo(i3, bmw). % elétrico/gasolina
+modelo(i8, bmw). % elétrico/gasolina
 
-modelo(aventador, lamborghini).
-modelo(huracan-spider, lamborghini).
-modelo(centenario, lamborghini).
-modelo(veneno, lamborghini).
-modelo(urus, lamborghini).
+modelo(aventador, lamborghini). % gasolina
+modelo(huracan-spider, lamborghini). % gasolina
+modelo(centenario, lamborghini). % gasolina
+modelo(veneno, lamborghini). % gasolina
+modelo(urus, lamborghini). % gasolina
 
-modelo(718-cayman, porsche).
-modelo(718-boxter, porsche).
-modelo(911-carrera, porsche).
-modelo(911-targa4, porsche).
-modelo(911-turboS, porsche).
-modelo(panamera-turbo, porsche).
-modelo(macan, porsche).
-modelo(cayenne, porsche).
+modelo(718-cayman, porsche). % gasolina
+modelo(718-boxter, porsche). % gasolina
+modelo(911-carrera, porsche). % gasolina
+modelo(911-targa4, porsche). % gasolina
+modelo(911-turboS, porsche). % gasolina
+modelo(panamera-turbo, porsche). % gasolina
+modelo(macan, porsche). % gasolina
+modelo(cayenne, porsche). % gasolina
 
-modelo(veyron, bugatti).
-modelo(cheyron, bugatti).
+modelo(veyron, bugatti). % gasolina
+modelo(chiron, bugatti). % gasolina
 
-modelo(r8, audi).
-modelo(a1, audi).
-modelo(a3, audi).
-modelo(a4, audi).
-modelo(a6, audi).
-modelo(a7, audi).
-modelo(q3, audi).
-modelo(q7, audi).
-modelo(tt, audi).
+modelo(r8, audi). % gasolina
+modelo(a1, audi). % gasolina
+modelo(a3, audi). % gasolina
+modelo(a4, audi). % gasolina
+modelo(a6, audi). % gasolina
+modelo(a7, audi). % gasolina
+modelo(q3, audi). % gasolina/alcool
+modelo(q7, audi). % diesel
+modelo(tt, audi). % gasolina
 
-modelo(corolla, toyota).
-modelo(hilux, toyota).
-modelo(etios, toyota).
-modelo(sw4, toyota).
-modelo(rav4, toyota).
-modelo(prius, toyota).
+modelo(corolla, toyota). % gasolina/alcool
+modelo(hilux, toyota). % diesel
+modelo(etios, toyota). % gasolina/alcool
+modelo(sw4, toyota). % gasolina/alcool
+modelo(rav4, toyota). % gasolina
+modelo(prius, toyota). % gasolina/elétrico
 
-modelo(fusca, volkswagen).
-modelo(polo, volkswagen).
-modelo(gol, volkswagen).
-modelo(up, volkswagen).
-modelo(fox, volkswagen).
-modelo(spacefox, volkswagen).
-modelo(golf, volkswagen).
-modelo(voyage, volkswagen).
-modelo(jetta, volkswagen).
-modelo(passat, volkswagen).
-modelo(golf-variant, volkswagen).
-modelo(tiguan, volkswagen).
-modelo(touareg, volkswagen).
-modelo(saveiro, volkswagen).
-modelo(amarok, volkswagen).
+modelo(fusca, volkswagen). % gasolina
+modelo(polo, volkswagen). % gasolina/alcool
+modelo(gol, volkswagen). % gasolina/alcool
+modelo(up, volkswagen). % gasolina/alcool
+modelo(fox, volkswagen). % gasolina/alcool
+modelo(spacefox, volkswagen). % gasolina/alcool
+modelo(golf, volkswagen). % gasolina/alcool
+modelo(voyage, volkswagen). % gasolina/alcool
+modelo(jetta, volkswagen). % gasolina
+modelo(passat, volkswagen). % gasolina
+modelo(golf-variant, volkswagen). % gasolina/alcool
+modelo(tiguan, volkswagen). % gasolina
+modelo(touareg, volkswagen). % gasolina
+modelo(saveiro, volkswagen). % gasolina/alcool
+modelo(amarok, volkswagen). % diesel
 
-modelo(ka, ford).
-modelo(fiest, ford).
-modelo(focus, ford).
-modelo(fusion, ford).
-modelo(mustang, ford).
-modelo(ranger, ford).
-modelo(ecosport, ford).
-modelo(edge, ford).
+modelo(ka, ford). % gasolina/alcool
+modelo(fiest, ford). % gasolina/alcool
+modelo(focus, ford). % gasolina/alcool
+modelo(fusion, ford). % gasolina/alcool
+modelo(mustang, ford). % gasolina
+modelo(ranger, ford). % gasolina/alcool
+modelo(ecosport, ford). % gasolina/alcool
+modelo(edge, ford). % gasolina
 
-modelo(versa, nissan).
-modelo(march, nissan).
-modelo(sentra, nissan).
-modelo(kicks, nissan).
-modelo(frontier, nissan).
-modelo(gt-r, nissan).
+modelo(versa, nissan). % gasolina/alcool
+modelo(march, nissan). % gasolina/alcool
+modelo(sentra, nissan). % gasolina/alcool
+modelo(kicks, nissan). % gasolina/alcool
+modelo(frontier, nissan). % diesel
+modelo(gt-r, nissan). % gasolina
 
-modelo(creta, hyundai).
-modelo(hb20, nissan).
-modelo(i30, nissan).
-modelo(elantra, nissan).
-modelo(azera, nissan).
-modelo(tucson, nissan).
-modelo(ix35, nissan).
-modelo(santa-fe, nissan).
+modelo(creta, hyundai). % gasolina/alcool
+modelo(hb20, nissan). % gasolina/alcool
+modelo(i30, nissan). % gasolina
+modelo(elantra, nissan). % gasolina/alcool
+modelo(azera, nissan). % gasolina
+modelo(tucson, nissan). % gasolina/alcool
+modelo(ix35, nissan). % gasolina/alcool
+modelo(santa-fe, nissan). % gasolina
 
-modelo(civic, honda).
-modelo(city, honda).
-modelo(fit, honda).
-modelo(wr-v, honda).
-modelo(hr-v, honda).
-modelo(cr-v, honda).
-modelo(accord, honda).
+modelo(civic, honda). % gasolina/alcool
+modelo(city, honda). % gasolina/alcool
+modelo(fit, honda). % gasolina/alcool
+modelo(wr-v, honda). % gasolina/alcool
+modelo(hr-v, honda). % gasolina/alcool
+modelo(cr-v, honda). % gasolina/alcool
+modelo(accord, honda). % gasolina
 
-modelo(onix, chevrolet).
-modelo(prisma, chevrolet).
-modelo(cobalt, chevrolet).
-modelo(spin, chevrolet).
-modelo(cruze, chevrolet).
-modelo(tracker, chevrolet).
-modelo(equinox, chevrolet).
-modelo(trailblazer, chevrolet).
-modelo(montana, chevrolet).
-modelo(s10, chevrolet).
-modelo(camaro, chevrolet).
-modelo(corvette, chevrolet).
+modelo(onix, chevrolet). % gasolina/alcool
+modelo(prisma, chevrolet). % gasolina/alcool
+modelo(cobalt, chevrolet). % gasolina/alcool
+modelo(spin, chevrolet). % gasolina/alcool
+modelo(cruze, chevrolet). % gasolina/alcool
+modelo(tracker, chevrolet). % gasolina/alcool
+modelo(equinox, chevrolet). % gasolina
+modelo(trailblazer, chevrolet). % gasolina
+modelo(montana, chevrolet). % gasolina/alcool
+modelo(s10, chevrolet). % gasolina/alcool/diesel
+modelo(camaro, chevrolet). % gasolina
+modelo(corvette, chevrolet). % gasolina
 
-modelo(soul, kia).
-modelo(picanto, kia).
-modelo(cerato, kia).
-modelo(optima, kia).
-modelo(cadenza, kia).
-modelo(quoris, kia).
-modelo(sportage, kia).
-modelo(sorento, kia).
-modelo(mohave, kia).
+modelo(soul, kia). % gasolina/alcool
+modelo(picanto, kia). % gasolina/alcool
+modelo(cerato, kia). % gasolina/alcool
+modelo(optima, kia). % gasolina
+modelo(cadenza, kia). % gasolina
+modelo(quoris, kia). % gasolina
+modelo(sportage, kia). % gasolina/alcool
+modelo(sorento, kia). % gasolina
+modelo(mohave, kia). % diesel
 
-modelo(sandero, renault).
-modelo(logan, renault).
-modelo(kwid, renault).
-modelo(captur, renault).
-modelo(duster, renault).
-modelo(duster-orochi, renault).
-modelo(fluence, renault).
-modelo(kangoo, renault).
+modelo(sandero, renault). % gasolina/alcool
+modelo(logan, renault). % gasolina/alcool
+modelo(kwid, renault). % gasolina/alcool
+modelo(captur, renault). % gasolina/alcool
+modelo(duster, renault). % gasolina/alcool
+modelo(duster-orochi, renault). % gasolina/alcool
+modelo(fluence, renault). % gasolina/alcool
+modelo(kangoo, renault). % gasolina/alcool
 
-modelo(class-a, merecedez-benz).
-modelo(class-b, merecedez-benz).
-modelo(class-c, merecedez-benz).
-modelo(cla, merecedez-benz).
-modelo(cls, merecedez-benz).
-modelo(class-e, merecedez-benz).
-modelo(class-g, merecedez-benz).
-modelo(gla, merecedez-benz).
-modelo(glc, merecedez-benz).
-modelo(gle, merecedez-benz).
-modelo(gls, merecedez-benz).
-modelo(class-s, merecedez-benz).
-modelo(sl, merecedez-benz).
-modelo(slc, merecedez-benz).
-modelo(amg, merecedez-benz).
-modelo(amg-gt, merecedez-benz).
+modelo(class-a, merecedez-benz). % gasolina/alcool
+modelo(class-b, merecedez-benz). % gasolina/alcool
+modelo(class-c, merecedez-benz). % gasolina
+modelo(cla, merecedez-benz). % gasolina
+modelo(cls, merecedez-benz). % gasolina
+modelo(class-e, merecedez-benz). % gasolina
+modelo(class-g, merecedez-benz). % gasolina
+modelo(gla, merecedez-benz). % gasolina/alcool
+modelo(glc, merecedez-benz). % gasolina
+modelo(gle, merecedez-benz). % diesel
+modelo(gls, merecedez-benz). % diesel
+modelo(class-s, merecedez-benz). % gasolina
+modelo(sl, merecedez-benz). % gasolina
+modelo(slc, merecedez-benz). % gasolina
+modelo(amg, merecedez-benz). % gasolina
+modelo(amg-gt, merecedez-benz). % gasolina
 
-modelo(cx3, mazda).
-modelo(mazda2, mazda).
-modelo(mazda3, mazda).
-modelo(mazda6, mazda).
-modelo(cx5, mazda).
-modelo(mx5, mazda).
+modelo(cx3, mazda). % gasolina
+modelo(mazda2, mazda). % gasolina
+modelo(mazda3, mazda). % gasolina
+modelo(mazda6, mazda). % gasolina
+modelo(cx5, mazda). % gasolina
+modelo(mx5, mazda). % gasolina
 
-modelo(toro, fiat).
-modelo(mobi, fiat).
-modelo(uno, fiat).
-modelo(argo, fiat).
-modelo(palio, fiat).
-modelo(punto, fiat).
-modelo(500, fiat).
-modelo(grand-siena, fiat).
-modelo(weekend, fiat).
-modelo(strada, fiat).
-modelo(doblo, fiat).
-modelo(ducato, fiat).
+modelo(toro, fiat). % gasolina/alcool
+modelo(mobi, fiat). % gasolina/alcool
+modelo(uno, fiat). % gasolina/alcool
+modelo(argo, fiat). % gasolina/alcool
+modelo(palio, fiat). % gasolina/alcool
+modelo(punto, fiat). % gasolina/alcool
+modelo(500, fiat). % gasolina/alcool
+modelo(grand-siena, fiat). % gasolina/alcool
+modelo(weekend, fiat). % gasolina/alcool
+modelo(strada, fiat). % gasolina/alcool
+modelo(doblo, fiat). % gasolina/alcool
+modelo(ducato, fiat). % diesel
 
-modelo(cherokee, jeep).
-modelo(gran-cherokee, jeep).
-modelo(renegade, jeep).
-modelo(compass, jeep).
-modelo(wrangler, jeep).
+modelo(cherokee, jeep). % gasolina
+modelo(gran-cherokee, jeep). % gasolina
+modelo(renegade, jeep). % gasolina/alcool
+modelo(compass, jeep). % gasolina/alcool
+modelo(wrangler, jeep). % gasolina
 
-modelo(c300c ,chrysler).
-modelo(town-e-country ,chrysler).
+modelo(c300c ,chrysler). % gasolina
+modelo(town-e-country ,chrysler). % gasolina
 
-modelo(impreza ,suruba).
-modelo(xv ,suruba).
-modelo(forester ,suruba).
-modelo(legacy ,suruba).
-modelo(outback ,suruba).
-modelo(wrx ,suruba).
-modelo(wrx-sti ,suruba).
+modelo(impreza ,suruba). % gasolina
+modelo(xv ,suruba). % gasolina
+modelo(forester ,suruba). % gasolina
+modelo(legacy ,suruba). % gasolina
+modelo(outback ,suruba). % gasolina
+modelo(wrx ,suruba). % gasolina
+modelo(wrx-sti ,suruba). % gasolina
 
-modelo(s, tesla).
-modelo(x, tesla).
-modelo(3, tesla).
-modelo(roadster-2009, tesla).
-modelo(roadster, tesla).
+modelo(s, tesla). % elétrico
+modelo(x, tesla). % elétrico
+modelo(3, tesla). % elétrico
+modelo(roadster-2009, tesla). % elétrico
+modelo(roadster, tesla). % elétrico
 
 tipo(coupe, phantom).
 tipo(coupe, wraith).
@@ -302,7 +302,7 @@ tipo(suv, macan).
 tipo(suv, cayenne).
 
 tipo(esportivo, veyron).
-tipo(esportivo, cheyron).
+tipo(esportivo, chiron).
 
 tipo(esportivo, r8).
 tipo(hatchback, a1).
@@ -448,7 +448,7 @@ tipo(suv, renegade).
 tipo(suv, compass).
 tipo(jipe, wrangler).
 
-tipo(sedan, 300c).
+tipo(sedan, c300c).
 tipo(van, town-e-country).
 
 tipo(sedan, impreza).
@@ -464,3 +464,4 @@ tipo(suv, x).
 tipo(coupe, 3).
 tipo(coupe, roadster-2009).
 tipo(coupe, roadster).
+
