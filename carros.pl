@@ -24,24 +24,24 @@ fabricado(chrysler, estados-unidos).
 fabricado(suruba, estados-unidos).
 fabricado(tesla, estados-unidos).
 
-modelo(phantom, rolls-royce). % gasolina
-modelo(wraith, rolls-royce). % gasolina
-modelo(dawn, rolls-royce). % gasolina
-modelo(ghost, rolls-royce). % gasolina
-modelo(cullinan, rolls-royce). % gasolina
-modelo(sweptail, rolls-royce). % gasolina
+modelo(phantom, rolls-royce). % gasolina % direção hidráulica % automatico % 8 marchas % 460cv % motor 6.7 % v12 % 4 portas
+modelo(wraith, rolls-royce). % gasolina % direção hidráulica % automatico % 8 marchas % 632cv % motor 6.6 % v12 % 2 portas
+modelo(dawn, rolls-royce). % gasolina % direção hidráulica % automatico % 8 marchas % 570cv % motor 6.6 % v12 %2 portas
+modelo(ghost, rolls-royce). % gasolina % direção hidráulica % automatico % 8 marchas % 571cv % motor 6.6 % v12 % 4 portas
+modelo(cullinan, rolls-royce). % gasolina % direção hidráulica % automatico % 8 marchas % 570cv % motor 6.75 % v12 % 5 portas
+modelo(sweptail, rolls-royce). % gasolina % direção hidráulica % automatico % 8 marchas % 459cv % motor 6.75 % v12 % 2 portas
 
-modelo(208, pegeout). % alcool/gasolina
-modelo(308, pegeout). % alcool/gasolina
-modelo(408, pegeout). % alcool/gasolina
-modelo(2008, pegeout). % alcool/gasolina
-modelo(partner, pegeout). % alcool/gasolina
+modelo(208, pegeout). % alcool/gasolina % direção hidráulica % manual % 5 marchas % 90cv % motor 1.2 % 3 cilindros % 5 portas
+modelo(308, pegeout). % alcool/gasolina % direção eletro-hidráulica % automatica/manual % 6 marchas % 173cv  % motor 1.6 % 3 cilindros % 5 portas
+modelo(408, pegeout). % alcool/gasolina % direção eletro-hidráulica % automatica/manual % 6 marchas % 173cv  % motor 1.6 % 4 cilindros % 4 portas
+modelo(2008, pegeout). % alcool/gasolina % direção hidráulica % manual % 5 marchas % 122cv % motor 1.6 % 3 cilindros % 5 portas
+modelo(partner, pegeout). % alcool/gasolina % direção hidráulica % manual % 5 marchas % 113cv % motor 1.6 % 3 cilindros 4 portas
 
-modelo(ghibli, maserati). % gasolina
-modelo(levante, maserati). % gasolina
-modelo(quattroporte, maserati). % gasolina
-modelo(granTurismo, maserati). % gasolina
-modelo(granCabrio, maserati). % gasolina
+modelo(ghibli, maserati). % gasolina % direção hidráulica % automatica/manual % 8 marchas % 410cv % motor 3.0 % v6 % 4 portas
+modelo(levante, maserati). % gasolina % direção elétrica % automatica/manual % 8 marchas % 350cv % motor 3.0 % v6 % 5 portas
+modelo(quattroporte, maserati). % gasolina % direção hidráulica % automatica/manual % 8 marchas % 530cv % motor 3.8 % v8 % 4 portas
+modelo(granTurismo, maserati). % gasolina % direção hidráulica % automatica/manual % 6 marchas % 439cv % motor 4.7 % v8 % 2 portas
+modelo(granCabrio, maserati). % gasolina % direção hidráulica % automatica/manual % 6 marchas % 440cv % motor 4.7 % v8 % 2 portas
 
 modelo(488-spider, ferrari). % gasolina
 modelo(488-gTB, ferrari). % gasolina
@@ -53,19 +53,19 @@ modelo(f12tdf, ferrari). % gasolina
 modelo(laFerrari, ferrari). % gasolina
 modelo(laFerrari-aperta, ferrari). % gasolina
 
-modelo(m140i, bmw). % alcool/gasolina
-modelo(m240i, bmw). % alcool/gasolina
-modelo(x1, bmw). % alcool/gasolina
-modelo(x3, bmw). % gasolina
-modelo(x4, bmw). % gasolina
-modelo(x5, bmw). % diesel
-modelo(x6, bmw). % gasolina
-modelo(m2, bmw). % gasolina
-modelo(m3, bmw). % gasolina
-modelo(m6, bmw). % gasolina
-modelo(x6-m, bmw). % gasolina
-modelo(i3, bmw). % elétrico/gasolina
-modelo(i8, bmw). % elétrico/gasolina
+modelo(m140i, bmw). % alcool/gasolina % direção elétrica % automatica/manual % 8 marchas % 340cv % motor 3.0 % 6 cilindros % 5 portas
+modelo(m220i, bmw). % alcool/gasolina % direção elétrica % automatica/manual % 8 marchas % 192cv % motor 2.0 % 6 cilindros % 5 portas
+modelo(x1, bmw). % alcool/gasolina % direção elétrica % automatica/manual % 8 marchas % 192cv % motor 2.0 % 6 cilindros % 5 portas
+modelo(x3, bmw). % gasolina % direção elétrica % automatica/manual % 8 marchas % 184cv % motor 2.0 % 6 cilindros % 5 portas
+modelo(x4, bmw). % gasolina % direção elétrica % automatica/manual % 8 marchas % 245cv % motor 2.0 % 4 cilindros % 5 portas
+modelo(x5, bmw). % diesel % direção elétrica % automatica/manual % 8 marchas % 258cv % motor 3.0 % 6 cilindros % 5 portas
+modelo(x6, bmw). % gasolina % direção elétrica % automatica/manual % 8 marchas % 306cv % motor 3.0 % 6 cilindros % 5 portas
+modelo(m2, bmw). % gasolina % direção elétrica % automatica/manual % 7 marchas % 370cv % motor 3.0 % 6 cilindros % 2 portas
+modelo(m3, bmw). % gasolina % direção elétrica % automatica/manual % 7 marchas % 431cv % motor 3.0 % 6 cilindros % 4 portas
+modelo(m6, bmw). % gasolina % direção hidráulica % automatica/manual % 7 marchas % 560cv % motor 4.4 % 8 cilindros % 4 portas
+modelo(x6-m, bmw). % gasolina % direção elétrica % automatica/manual % 8 marchas % 575cv % motor 3.0 % 8 cilindros % 5 portas
+modelo(i3, bmw). % elétrico/gasolina % direção elétrica % automatica % 1 marcha % 170cv % motor 0.6/elétrico % 2 cilindros/elétrico % 5 portas
+modelo(i8, bmw). % elétrico/gasolina % direção elétrica % automatica/manual % 6 marchas % 362cv % motor 1.5 % 3 cilindros/elétrico % 2 portas
 
 modelo(aventador, lamborghini). % gasolina
 modelo(huracan-spider, lamborghini). % gasolina
@@ -273,7 +273,7 @@ tipo(esportivo, laFerrari).
 tipo(esportivo, laFerrari-aperta).
 
 tipo(hatchback, m140i).
-tipo(coupe, m240i).
+tipo(coupe, m220i).
 tipo(suv, x1).
 tipo(suv, x3).
 tipo(suv, x4).
