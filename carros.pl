@@ -435,17 +435,6 @@ tipo(suv, renegade).
 tipo(suv, compass).
 tipo(jipe, wrangler).
 
-<<<<<<< Updated upstream
-=======
-tipo(sedan, impreza).
-tipo(suv, xv).
-tipo(suv, forester).
-tipo(sedan, legacy).
-tipo(suv, outback).
-tipo(coupe, wrx).
-tipo(coupe, wrx-sti).
-
->>>>>>> Stashed changes
 tipo(sedan, s).
 tipo(suv, x).
 tipo(coupe, 3).
