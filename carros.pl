@@ -98,7 +98,7 @@ modelo(sw4, toyota). % direção hidráulica % manual % 5 marchas % 163cv % moto
 modelo(rav4, toyota). % direção elétrica % cvt/manual % cvt % 145cv % motor 2.0 % 4 cilindros % 5 portas
 modelo(prius, toyota).% direção elétrica % cvt % cvt % 123cv % motor 1.8/elétrico % 4 cilindros/elétrico % 5 portas
 
-modelo(fusca, volkswagen).
+modelo(fusca, volkswagen).% direção elétrica % manual/automática % 6 marchas % 211cv % motor 2.0 % 4 cilindros % 2 portas
 modelo(polo, volkswagen).% direção elétrica % manual % 5 marchas % 84cv % motor 1.0 % 3 cilindros % 5 portas
 modelo(gol, volkswagen). % direção mecânica % manual % 5 marchas % 82cv % motor 1.0 % 4 cilindros % 5 portas
 modelo(up, volkswagen).% direção mecânica % manual % 5 marchas % 82cv % motor 1.0 % 3 cilindros % 5 portas
@@ -173,8 +173,8 @@ modelo(mohave, kia).% direção hidráulica % manual/automática % 8 marchas % 2
 
 modelo(sandero, renault).% direção eletro-hidráulica % manual % 5 marchas % 82cv % motor 1.0 % 3 cilindros % 5 portas
 modelo(logan, renault). % direção eletro-hidráulica % manual % 5 marchas % 82cv % motor 1.0 % 3 cilindros % 4 portas
-modelo(kwid, renault). 
-modelo(captur, renault). 
+modelo(kwid, renault). % direção mecânica % manual % 5 marchas % 70cv % motor 1.0 % 3 cilindros % 5 portas
+modelo(captur, renault). % direção eletro-hidráulica % manual % 5 marchas % 120cv % motor 1.6 % 4 cilindros % 5 portas
 modelo(duster, renault). 
 modelo(duster-orochi, renault). 
 modelo(fluence, renault). 
