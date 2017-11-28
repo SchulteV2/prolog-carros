@@ -73,17 +73,17 @@ modelo(centenario, lamborghini). % gasolina% direção hidráulica % automatica/
 modelo(veneno, lamborghini). % gasolina% direção elétrica % automatica/manual % 7 marchas % 750cv % motor 6.5 % v12 % 2 portas
 modelo(urus, lamborghini). % gasolina% direção elétrica % automatica/manual % 7 marchas % 659cv % motor 4.0 % v8 % 5 portas
 
-modelo(718-cayman, porsche). % gasolina
-modelo(718-boxter, porsche). % gasolina
-modelo(911-carrera, porsche). % gasolina
-modelo(911-targa4, porsche). % gasolina
-modelo(911-turboS, porsche). % gasolina
-modelo(panamera-turbo, porsche). % gasolina
-modelo(macan, porsche). % gasolina
-modelo(cayenne, porsche). % gasolina
+modelo(718-cayman, porsche). % gasolina % direção hidráulica % automatica/manual % 7 marchas % 300cv % motor 2.0 % 4 cilindros % 3 portas
+modelo(718-boxter, porsche). % gasolina % direção elétrica % automatica/manual % 7 marchas % 300cv % motor 2.0 % 4 cilindros % 2 portas
+modelo(911-carrera, porsche). % gasolina % direção elétrica % automatica/manual % 7 marchas % 370cv % motor 3.0 % 6 cilindros % 2 portas
+modelo(911-targa4, porsche). % gasolina % direção elétrica % automatica/manual % 7 marchas % 370cv % motor 3.8 % 6 cilindros % 2 portas
+modelo(911-turboS, porsche). % gasolina % direção elétrica % automatica/manual % 7 marchas % 580cv % motor 3.9 % 6 cilindros % 2 portas
+modelo(panamera-turbo, porsche). % gasolina % direção elétrica % automatica/manual % 8 marchas % 550cv % motor 4.0 % v8 % 5 portas
+modelo(macan, porsche). % gasolina % direção elétrica % automatica/manual % 7 marchas % 252cv % motor 2.0 % 4 cilindros % 5 portas
+modelo(cayenne, porsche). % gasolina % direção eletro-hidráulica % automatica/manual % 8 marchas % 300cv % motor 3.6 % 6 cilindros % 5 portas
 
-modelo(veyron, bugatti). % gasolina
-modelo(chiron, bugatti). % gasolina
+modelo(veyron, bugatti). % gasolina % direção elétrica % automatica/manual % 7 marchas % 1014cv % motor 8.0 % w16 % 2 portas
+modelo(chiron, bugatti). % gasolina % direção elétrica % semiautomático % 7 marchas % 1500cv % motor 8.0 % w16 % 2 portas
 
 modelo(r8, audi). % gasolina % direção hidráulica % automatica/manual % 7 marchas % 610cv % motor 5.2 % v10 % 2 portas
 modelo(a1, audi). % gasolina % direção elétro-hidráulica % automatica/manual % 7 marchas % 125cv % motor 1.4 % 4 cilindros % 5 portas
@@ -183,30 +183,6 @@ modelo(duster-orochi, renault). % gasolina/alcool
 modelo(fluence, renault). % gasolina/alcool
 modelo(kangoo, renault). % gasolina/alcool
 
-modelo(class-a, merecedez-benz). % gasolina/alcool
-modelo(class-b, merecedez-benz). % gasolina/alcool
-modelo(class-c, merecedez-benz). % gasolina
-modelo(cla, merecedez-benz). % gasolina
-modelo(cls, merecedez-benz). % gasolina
-modelo(class-e, merecedez-benz). % gasolina
-modelo(class-g, merecedez-benz). % gasolina
-modelo(gla, merecedez-benz). % gasolina/alcool
-modelo(glc, merecedez-benz). % gasolina
-modelo(gle, merecedez-benz). % diesel
-modelo(gls, merecedez-benz). % diesel
-modelo(class-s, merecedez-benz). % gasolina
-modelo(sl, merecedez-benz). % gasolina
-modelo(slc, merecedez-benz). % gasolina
-modelo(amg, merecedez-benz). % gasolina
-modelo(amg-gt, merecedez-benz). % gasolina
-
-modelo(cx3, mazda). % gasolina
-modelo(mazda2, mazda). % gasolina
-modelo(mazda3, mazda). % gasolina
-modelo(mazda6, mazda). % gasolina
-modelo(cx5, mazda). % gasolina
-modelo(mx5, mazda). % gasolina
-
 modelo(toro, fiat). % gasolina/alcool
 modelo(mobi, fiat). % gasolina/alcool
 modelo(uno, fiat). % gasolina/alcool
@@ -225,17 +201,6 @@ modelo(gran-cherokee, jeep). % gasolina
 modelo(renegade, jeep). % gasolina/alcool
 modelo(compass, jeep). % gasolina/alcool
 modelo(wrangler, jeep). % gasolina
-
-modelo(c300c ,chrysler). % gasolina
-modelo(town-e-country ,chrysler). % gasolina
-
-modelo(impreza ,suruba). % gasolina
-modelo(xv ,suruba). % gasolina
-modelo(forester ,suruba). % gasolina
-modelo(legacy ,suruba). % gasolina
-modelo(outback ,suruba). % gasolina
-modelo(wrx ,suruba). % gasolina
-modelo(wrx-sti ,suruba). % gasolina
 
 modelo(s, tesla). % elétrico
 modelo(x, tesla). % elétrico
@@ -406,30 +371,6 @@ tipo(suv, duster-orochi).
 tipo(sedan, fluence).
 tipo(van, kangoo).
 
-tipo(hatchback, class-a).
-tipo(perua, class-b).
-tipo(sedan, class-c).
-tipo(coupe, cla).
-tipo(sedan, cls).
-tipo(sedan, class-e).
-tipo(jipe, class-g).
-tipo(suv, gla).
-tipo(suv, glc).
-tipo(suv, gle).
-tipo(suv, gls).
-tipo(sedan, class-s).
-tipo(coupe, sl).
-tipo(coupe, slc).
-tipo(coupe, amg).
-tipo(coupe, amg-gt).
-
-tipo(hatchback, cx3).
-tipo(hatchback, mazda2).
-tipo(sedan, mazda3).
-tipo(suv, mazda6).
-tipo(suv, cx5).
-tipo(coupe, mx5).
-
 tipo(pickup, toro).
 tipo(hatchback, mobi).
 tipo(hatchback, uno).
@@ -447,17 +388,6 @@ tipo(suv, gran-cherokee).
 tipo(suv, renegade).
 tipo(suv, compass).
 tipo(jipe, wrangler).
-
-tipo(sedan, c300c).
-tipo(van, town-e-country).
-
-tipo(sedan, impreza).
-tipo(suv, xv).
-tipo(suv, forester).
-tipo(sedan, legacy).
-tipo(suv, outback).
-tipo(coupe, wrx).
-tipo(coupe, wrx-sti).
 
 tipo(sedan, s).
 tipo(suv, x).
