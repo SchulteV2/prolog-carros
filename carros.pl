@@ -175,28 +175,28 @@ modelo(sandero, renault).% direção eletro-hidráulica % manual % 5 marchas % 8
 modelo(logan, renault). % direção eletro-hidráulica % manual % 5 marchas % 82cv % motor 1.0 % 3 cilindros % 4 portas
 modelo(kwid, renault). % direção mecânica % manual % 5 marchas % 70cv % motor 1.0 % 3 cilindros % 5 portas
 modelo(captur, renault). % direção eletro-hidráulica % manual % 5 marchas % 120cv % motor 1.6 % 4 cilindros % 5 portas
-modelo(duster, renault). 
-modelo(duster-orochi, renault). 
-modelo(fluence, renault). 
-modelo(kangoo, renault). 
+modelo(duster, renault). % direção eletro-hidráulica % manual % 5 marchas % 120cv % motor 1.6 % 4 cilindros % 5 portas
+modelo(duster-orochi, renault). % direção eletro-hidráulica % manual % 5 marchas % 120cv % motor 1.6 % 4 cilindros % 4 portas
+modelo(fluence, renault).  % direção elétrica % cvt/manual % cvt % 143cv % motor 2.0 % 4 cilindros % 4 portas
+modelo(kangoo, renault).  % direção mecânica % manual % 5 marchas % 98cv % motor 1.6 % 4 cilindros % 3 portas
 
-modelo(toro, fiat).
-modelo(mobi, fiat).
-modelo(uno, fiat).
-modelo(argo, fiat).
-modelo(palio, fiat).
-modelo(punto, fiat).
-modelo(500, fiat).
-modelo(grand-siena, fiat).
-modelo(weekend, fiat).
-modelo(strada, fiat).
-modelo(doblo, fiat).
-modelo(ducato, fiat). 
+modelo(toro, fiat).% direção elétrica % manual/automática % 6 marchas % 139cv % motor 1.7 % 4 cilindros % 4 portas
+modelo(mobi, fiat).% direção mecânica % manual % 5 marchas % 75cv % motor 1.0 % 4 cilindros % 5 portas
+modelo(uno, fiat).% direção elétrica % manual % 5 marchas % 77cv % motor 1.0 % 4 cilindros % 5 portas
+modelo(argo, fiat).% direção elétrica % manual/automática % 6 marchas % 139cv % motor 1.7 % 4 cilindros % 5 portas
+modelo(palio, fiat).% direção mecânica % manual % 5 marchas % 75cv % motor 1.0 % 4 cilindros % 5 portas
+modelo(punto, fiat).% direção hidráulica % manual % 5 marchas % 88cv % motor 1.4 % 4 cilindros % 5 portas
+modelo(500, fiat).% direção elétrica % manual % 5 marchas % 88cv % motor 1.4 % 4 cilindros % 3 portas
+modelo(grand-siena, fiat).% direção hidráulica % manual % 5 marchas % 75cv % motor 1.0 % 4 cilindros % 4 portas
+modelo(weekend, fiat).% direção hidráulica % manual % 5 marchas % 86cv % motor 1.4 % 4 cilindros % 5 portas
+modelo(strada, fiat).% direção mecânica % manual % 5 marchas % 88cv % motor 1.4 % 4 cilindros % 2 portas
+modelo(doblo, fiat).% direção hidráulica % manual % 5 marchas % 132cv % motor 1.7 % 4 cilindros % 5 portas
+modelo(ducato, fiat). % direção hidráulica % manual % 5 marchas % 127cv % motor 2.3 % 4 cilindros % 4 portas
 
 modelo(cherokee, jeep).
-modelo(gran-cherokee, jeep).
+modelo(gran-cherokee, jeep).% direção elétrica % manual/automática % 8 marchas % 241cv % motor 3.6 % 4 cilindros % 5 portas
 modelo(renegade, jeep).
-modelo(compass, jeep).
+modelo(compass, jeep).% direção elétrica % manual/automática % 6 marchas % 166cv % motor 2.0 % 4 cilindros % 5 portas
 modelo(wrangler, jeep).
 
 modelo(s, tesla). 
