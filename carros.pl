@@ -43,15 +43,15 @@ modelo(quattroporte, maserati).  % direção hidráulica % automatica/manual % 8
 modelo(granTurismo, maserati).  % direção hidráulica % automatica/manual % 6 marchas % 439cv % motor 4.7 % v8 % 2 portas
 modelo(granCabrio, maserati).  % direção hidráulica % automatica/manual % 6 marchas % 440cv % motor 4.7 % v8 % 2 portas
 
-modelo(488-spider, ferrari). 
-modelo(488-gTB, ferrari). 
-modelo(812-superFast, ferrari). 
-modelo(portofino, ferrari). 
-modelo(gtc4Lusso-t, ferrari). 
-modelo(gtc4Lusso, ferrari).
-modelo(f12tdf, ferrari). 
-modelo(laFerrari, ferrari). 
-modelo(laFerrari-aperta, ferrari).
+modelo(488-spider, ferrari).  % direção elétrica % automatica/manual % 7 marchas % 670cv % motor 3.9 % v8 % 2 portas
+modelo(488-gTB, ferrari).  % direção hidráulica % automatica/manual % 7 marchas % 670cv % motor 3.9 % v8 % 2 portas
+modelo(812-superFast, ferrari).  % direção hidráulica % automatica/manual % 7 marchas % 800cv % motor 6.5 % v12 % 2 portas
+modelo(portofino, ferrari).  % direção hidráulica % automatica/manual % 7 marchas % 600cv % motor 3.8 % v8 % 2 portas
+modelo(gtc4Lusso-t, ferrari).  % direção hidráulica % automatica/manual % 7 marchas % 690cv % motor 3.9 % v8 % 3 portas
+modelo(gtc4Lusso, ferrari). % direção hidráulica % automatica/manual % 7 marchas % 690cv % motor 3.9 % v12 % 3 portas
+modelo(f12tdf, ferrari). % direção hidráulica % automatica/manual % 7 marchas % 780cv % motor 6.2 % v12 % 3 portas
+modelo(laFerrari, ferrari). % direção elétrica % automatica/manual % 7 marchas % 963cv % motor 6.3/elétrico % v12 % 2 portas
+modelo(laFerrari-aperta, ferrari).% direção elétrica % automatica/manual % 7 marchas % 963cv % motor 6.3/elétrico % v12 % 2 portas
 
 modelo(m140i, bmw). % alcool/gasolina % direção elétrica % automatica/manual % 8 marchas % 340cv % motor 3.0 % 6 cilindros % 5 portas
 modelo(m220i, bmw). % alcool/gasolina % direção elétrica % automatica/manual % 8 marchas % 192cv % motor 2.0 % 6 cilindros % 5 portas
@@ -67,11 +67,11 @@ modelo(x6-m, bmw). % gasolina % direção elétrica % automatica/manual % 8 marc
 modelo(i3, bmw). % elétrico/gasolina % direção elétrica % automatica % 1 marcha % 170cv % motor 0.6/elétrico % 2 cilindros/elétrico % 5 portas
 modelo(i8, bmw). % elétrico/gasolina % direção elétrica % automatica/manual % 6 marchas % 362cv % motor 1.5 % 3 cilindros/elétrico % 2 portas
 
-modelo(aventador, lamborghini). % gasolina
-modelo(huracan-spider, lamborghini). % gasolina
-modelo(centenario, lamborghini). % gasolina
-modelo(veneno, lamborghini). % gasolina
-modelo(urus, lamborghini). % gasolina
+modelo(aventador, lamborghini). % gasolina % direção elétrica % automatica/manual % 7 marchas % 700cv % motor 6.5 % v12 % 2 portas
+modelo(huracan-spider, lamborghini). % gasolina% direção hidráulica % automatica/manual % 7 marchas % 610cv % motor 5.2 % v10 % 2 portas
+modelo(centenario, lamborghini). % gasolina% direção hidráulica % automatica/manual % 7 marchas % 769cv % motor 6.5 % v12 % 2 portas
+modelo(veneno, lamborghini). % gasolina% direção elétrica % automatica/manual % 7 marchas % 750cv % motor 6.5 % v12 % 2 portas
+modelo(urus, lamborghini). % gasolina% direção elétrica % automatica/manual % 7 marchas % 659cv % motor 4.0 % v8 % 5 portas
 
 modelo(718-cayman, porsche). % gasolina
 modelo(718-boxter, porsche). % gasolina
@@ -85,22 +85,22 @@ modelo(cayenne, porsche). % gasolina
 modelo(veyron, bugatti). % gasolina
 modelo(chiron, bugatti). % gasolina
 
-modelo(r8, audi). % gasolina
-modelo(a1, audi). % gasolina
-modelo(a3, audi). % gasolina
-modelo(a4, audi). % gasolina
-modelo(a6, audi). % gasolina
-modelo(a7, audi). % gasolina
-modelo(q3, audi). % gasolina/alcool
-modelo(q7, audi). % diesel
-modelo(tt, audi). % gasolina
+modelo(r8, audi). % gasolina % direção hidráulica % automatica/manual % 7 marchas % 610cv % motor 5.2 % v10 % 2 portas
+modelo(a1, audi). % gasolina % direção elétro-hidráulica % automatica/manual % 7 marchas % 125cv % motor 1.4 % 4 cilindros % 5 portas
+modelo(a3, audi). % gasolina % direção elétrica % automatica/manual % 7 marchas % 122cv % motor 1.4 % 4 cilindros % 5 portas
+modelo(a4, audi). % gasolina % direção elétrica % automatica/manual % 7 marchas % 190cv % motor 2.0 % 4 cilindros % 4 portas
+modelo(a6, audi). % gasolina % direção elétrica % automatica/manual % 7 marchas % 252cv % motor 2.0 % 4 cilindros % 4 portas
+modelo(a7, audi). % gasolina % direção elétrica % automatica/manual % 7 marchas % 333cv % motor 3.0 % 4 cilindros % 5 portas
+modelo(q3, audi). % gasolina/alcool % direção elétrica % automatica/manual % 6 marchas % 150cv % motor 1.4 % 4 cilindros % 5 portas
+modelo(q7, audi). % diesel % direção elétrica % automatica/manual % 8 marchas % 258cv % motor 3.0 % v6 % 5 portas
+modelo(tt, audi). % gasolina % direção elétrica % automatica/manual % 6 marchas % 230cv % motor 2.0 % 4 cilindros % 3 portas
 
-modelo(corolla, toyota). % gasolina/alcool
-modelo(hilux, toyota). % diesel
-modelo(etios, toyota). % gasolina/alcool
-modelo(sw4, toyota). % gasolina/alcool
-modelo(rav4, toyota). % gasolina
-modelo(prius, toyota). % gasolina/elétrico
+modelo(corolla, toyota). % gasolina/alcool % direção elétrica % cvt/manual % cvt % 154cv % motor 2.0 % 4 cilindros % 4 portas
+modelo(hilux, toyota). % diesel % direção hidráulica % manual % 6 marchas % 177cv % motor 2.8 % 4 cilindros % 2 portas
+modelo(etios, toyota). % gasolina/alcool % direção elétrica % manual % 6 marchas % 98cv % motor 1.3 % 4 cilindros % 5 portas
+modelo(sw4, toyota). % gasolina/alcool % direção hidráulica % manual % 5 marchas % 163cv % motor 2.7 % 4 cilindros % 5 portas
+modelo(rav4, toyota). % gasolina % direção elétrica % cvt/manual % cvt % 145cv % motor 2.0 % 4 cilindros % 5 portas
+modelo(prius, toyota). % gasolina/elétrico % direção elétrica % cvt % cvt % 123cv % motor 1.8/elétrico % 4 cilindros/elétrico % 5 portas
 
 modelo(fusca, volkswagen). % gasolina
 modelo(polo, volkswagen). % gasolina/alcool
