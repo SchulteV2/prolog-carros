@@ -99,80 +99,80 @@ modelo(rav4, toyota). % direção elétrica % cvt/manual % cvt % 145cv % motor 2
 modelo(prius, toyota).% direção elétrica % cvt % cvt % 123cv % motor 1.8/elétrico % 4 cilindros/elétrico % 5 portas
 
 modelo(fusca, volkswagen).
-modelo(polo, volkswagen).
+modelo(polo, volkswagen).% direção elétrica % manual % 5 marchas % 84cv % motor 1.0 % 3 cilindros % 5 portas
 modelo(gol, volkswagen). % direção mecânica % manual % 5 marchas % 82cv % motor 1.0 % 4 cilindros % 5 portas
-modelo(up, volkswagen).
+modelo(up, volkswagen).% direção mecânica % manual % 5 marchas % 82cv % motor 1.0 % 3 cilindros % 5 portas
 modelo(fox, volkswagen). % direção elétrica % manual % 5 marchas % 82cv % motor 1.0 % 4 cilindros % 5 portas
-modelo(spacefox, volkswagen).
+modelo(spacefox, volkswagen).% direção elétrica % manual % 5 marchas % 104cv % motor 1.6 % 4 cilindros % 5 portas
 modelo(golf, volkswagen).% direção elétrica % automatica/manual % 6 marchas % 220cv % motor 2.0 % 4 cilindros % 5 portas
-modelo(voyage, volkswagen).
-modelo(jetta, volkswagen).
-modelo(passat, volkswagen).
-modelo(golf-variant, volkswagen).
-modelo(tiguan, volkswagen).
-modelo(touareg, volkswagen).
-modelo(saveiro, volkswagen).
+modelo(voyage, volkswagen).% direção mecânica % manual % 5 marchas % 82cv % motor 1.0 % 3 cilindros % 4 portas
+modelo(jetta, volkswagen).% direção elétrica % automática/manual % 6 marchas % 150cv % motor 1.4 % 4 cilindros % 4 portas
+modelo(passat, volkswagen).% direção elétrica % automática/manual % 6 marchas % 220cv % motor 2.0 % 4 cilindros % 4 portas
+modelo(golf-variant, volkswagen).% direção elétrica % automatica/manual % 6 marchas % 150cv % motor 1.4 % 4 cilindros % 5 portas
+modelo(tiguan, volkswagen).% direção elétrica % automática/manual % 6 marchas % 150cv % motor 1.4 % 4 cilindros % 5 portas
+modelo(touareg, volkswagen).% direção eletro-hidráulica % automatica/manual % 8 marchas % 280cv % motor 3.6 % v6 % 5 portas
+modelo(saveiro, volkswagen).% direção mecânica % manual % 5 marchas % 104cv % motor 1.6 % 4 cilindros % 2 portas
 modelo(amarok, volkswagen).% direção hidráulica % manual % 6 marchas % 140cv % motor 2.0 % v6 % 2 portas
 
 
-modelo(ka, ford). 
-modelo(fiest, ford). 
-modelo(focus, ford). 
-modelo(fusion, ford).
-modelo(mustang, ford). 
-modelo(ranger, ford). 
-modelo(ecosport, ford). 
-modelo(edge, ford). 
+modelo(ka, ford). % direção elétrica % manual % 5 marchas % 85cv % motor 1.0 % 3 cilindros % 5 portas
+modelo(fiesta, ford).  % direção elétrica % manual % 5 marchas % 128cv % motor 1.6 % 4 cilindros % 5 portas
+modelo(focus, ford). % direção elétrica % manual/automática % 6 marchas % 178cv % motor 2.0 % 4 cilindros % 5 portas
+modelo(fusion, ford).% direção elétrica % manual/automática % 6 marchas % 175cv % motor 2.5 % 4 cilindros % 4 portas
+modelo(mustang, ford). % direção elétrica % manual % 6 marchas % 304cv % motor 3.7 % v6 % 2 portas
+modelo(ranger, ford).  % direção elétrica % manual % 5 marchas % 173cv % motor 2.5 % 4 cilindros % 4 portas
+modelo(ecosport, ford). % direção elétrica % manual % 5 marchas % 137cv % motor 1.5 % 3 cilindros % 5 portas
+modelo(edge, ford). % direção elétrica % manual/automática % 6 marchas % 284cv % motor 3.5 % v6 % 5 portas
 
-modelo(versa, nissan).
-modelo(march, nissan). 
-modelo(sentra, nissan). 
-modelo(kicks, nissan). 
-modelo(frontier, nissan).
-modelo(gt-r, nissan). 
+modelo(versa, nissan). % direção elétrica % manual % 5 marchas % 77cv % motor 1.0 % 4 cilindros % 4 portas
+modelo(march, nissan). % direção elétrica % manual % 5 marchas % 77cv % motor 1.0 % 4 cilindros % 5 portas
+modelo(sentra, nissan). % direção elétrica % cvt % cvt % 140cv % motor 2.0 % 4 cilindros % 4 portas
+modelo(kicks, nissan). % direção elétrica % manual % 5 marchas % 114cv % motor 1.6 % 4 cilindros % 5 portas
+modelo(frontier, nissan).% direção hidráulica % manual/automática % 7 marchas % 190cv % motor 2.3 % 4 cilindros % 4 portas
+modelo(gt-r, nissan). % direção elétrica % manual/automática % 6 marchas % 572cv % motor 3.8 % v6 % 2 portas
 
-modelo(creta, hyundai). 
-modelo(hb20, nissan). 
-modelo(i30, nissan).
-modelo(elantra, nissan).
-modelo(azera, nissan). 
-modelo(tucson, nissan). 
-modelo(ix35, nissan). 
-modelo(santa-fe, nissan).
+modelo(creta, hyundai). % direção elétrica % manual % 6 marchas % 130cv % motor 1.6 % 4 cilindros % 5 portas
+modelo(hb20, nissan). % direção hidráulica % manual % 5 marchas % 80cv % motor 1.0 % 3 cilindros % 5 portas
+modelo(i30, nissan).% direção elétrica % manual/automática % 6 marchas % 163cv % motor 2.0 % 4 cilindros % 5 portas
+modelo(elantra, nissan).% direção elétrica % manual/automática % 6 marchas % 167cv % motor 2.0 % 4 cilindros % 4 portas
+modelo(azera, nissan). % direção hidráulica % manual/automática % 6 marchas % 250cv % motor 3.0 % v6 % 4 portas
+modelo(tucson, nissan). % direção hidráulica % manual/automática % 4 marchas % 146cv % motor 2.0 % 4 cilindros % 5 portas
+modelo(ix35, nissan). % direção elétrica % manual/automática % 6 marchas % 167cv % motor 2.0 % 4 cilindros % 5 portas
+modelo(santa-fe, nissan).% direção elétrica % manual/automática % 6 marchas % 270cv % motor 3.3 % 4 cilindros % 5 portas
 
-modelo(civic, honda). 
-modelo(city, honda). 
-modelo(fit, honda). 
-modelo(wr-v, honda). 
-modelo(hr-v, honda). 
-modelo(cr-v, honda). 
-modelo(accord, honda). 
+modelo(civic, honda). % direção elétrica % manual % 6 marchas % 155cv % motor 2.0 % 4 cilindros % 4 portas
+modelo(city, honda). % direção elétrica % manual % 5 marchas % 116cv % motor 1.5 % 4 cilindros % 4 portas
+modelo(fit, honda). % direção elétrica % manual % 5 marchas % 116cv % motor 1.5 % 4 cilindros % 5 portas
+modelo(wr-v, honda). % direção elétrica % cvt % cvt % 116cv % motor 1.5 % 4 cilindros % 5 portas
+modelo(hr-v, honda). % direção elétrica % manual % 6 marchas % 140cv % motor 1.8 % 4 cilindros % 5 portas
+modelo(cr-v, honda). % direção elétrica % automática % 5 marchas % 155cv % motor 2.0 % 4 cilindros % 5 portas
+modelo(accord, honda). % direção elétrica % manual/automática % 6 marchas % 280cv % motor 3.5 % v6 % 4 portas
 
-modelo(onix, chevrolet). 
-modelo(prisma, chevrolet). 
-modelo(cobalt, chevrolet). 
-modelo(spin, chevrolet). 
-modelo(cruze, chevrolet). 
-modelo(tracker, chevrolet). 
-modelo(equinox, chevrolet). 
-modelo(trailblazer, chevrolet). 
-modelo(montana, chevrolet). 
-modelo(s10, chevrolet). 
-modelo(camaro, chevrolet). 
-modelo(corvette, chevrolet). 
+modelo(onix, chevrolet). % direção elétrica % manual % 6 marchas % 80cv % motor 1.0 % 3 cilindros % 5 portas
+modelo(prisma, chevrolet). % direção elétrica % manual % 6 marchas % 80cv % motor 1.0 % 3 cilindros % 4 portas
+modelo(cobalt, chevrolet). % direção elétrica % manual % 6 marchas % 106cv % motor 1.4 % 4 cilindros % 4 portas
+modelo(spin, chevrolet). % direção elétrica % manual % 6 marchas % 111cv % motor 1.8 % 4 cilindros % 5 portas
+modelo(cruze, chevrolet). % direção elétrica % manual % 6 marchas % 153cv % motor 1.4 % 4 cilindros % 4 portas
+modelo(tracker, chevrolet). % direção elétrica % manual/automática % 6 marchas % 153cv % motor 1.4 % 4 cilindros % 5 portas
+modelo(equinox, chevrolet). % direção elétrica % manual/automática % 9 marchas % 262cv % motor 2.0 % 4 cilindros % 5 portas
+modelo(trailblazer, chevrolet). % direção elétrica % manual/automática % 6 marchas % 179cv % motor 3.6 % v6 % 5 portas
+modelo(montana, chevrolet). % direção hidráulica % manual % 5 marchas % 99cv % motor 1.4 % 4 cilindros % 2 portas
+modelo(s10, chevrolet). % direção elétrica % manual % 6 marchas % 200cv % motor 2.8 % 4 cilindros % 2 portas
+modelo(camaro, chevrolet). % direção elétrica % manual/automática % 8 marchas % 406cv % motor 6.2 % v8 % 2 portas
+modelo(corvette, chevrolet). % direção elétrica % manual % 7 marchas % 466cv % motor 6.2 % v8 % 2 portas
 
-modelo(soul, kia).
-modelo(picanto, kia). 
-modelo(cerato, kia). 
-modelo(optima, kia). 
-modelo(cadenza, kia). 
-modelo(quoris, kia).
-modelo(sportage, kia). 
-modelo(sorento, kia). 
-modelo(mohave, kia).
+modelo(soul, kia).% direção elétrica % manual/automática % 6 marchas % 128cv % motor 1.6 % 4 cilindros % 5 portas
+modelo(picanto, kia). % direção elétrica % manual % 5 marchas % 80cv % motor 1.0 % 4 cilindros % 5 portas
+modelo(cerato, kia). % direção elétrica % manual/automática % 6 marchas % 128cv % motor 1.6 % 4 cilindros % 4 portas
+modelo(optima, kia). % direção hidráulica % manual/automática % 6 marchas % 165cv % motor 2.0 % 4 cilindros % 4 portas
+modelo(cadenza, kia). % direção hidráulica % manual/automática % 6 marchas % 290cv % motor 3.5 % v6 % 4 portas
+modelo(quoris, kia).% direção eletro-hidráulica % manual/automática % 8 marchas % 294cv % motor 3.8 % v6 % 4 portas
+modelo(sportage, kia). % direção elétrica % manual/automática % 6 marchas % 167cv % motor 2.0 % 4 cilindros % 5 portas
+modelo(sorento, kia). % direção elétrica % manual/automática % 6 marchas % 270cv % motor 3.3 % v6 % 5 portas
+modelo(mohave, kia).% direção hidráulica % manual/automática % 8 marchas % 256cv % motor 3.0 % 6 cilindros % 5 portas
 
-modelo(sandero, renault).
-modelo(logan, renault). 
+modelo(sandero, renault).% direção eletro-hidráulica % manual % 5 marchas % 82cv % motor 1.0 % 3 cilindros % 5 portas
+modelo(logan, renault). % direção eletro-hidráulica % manual % 5 marchas % 82cv % motor 1.0 % 3 cilindros % 4 portas
 modelo(kwid, renault). 
 modelo(captur, renault). 
 modelo(duster, renault). 
