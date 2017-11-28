@@ -175,28 +175,28 @@ modelo(sandero, renault).% direção eletro-hidráulica % manual % 5 marchas % 8
 modelo(logan, renault). % direção eletro-hidráulica % manual % 5 marchas % 82cv % motor 1.0 % 3 cilindros % 4 portas
 modelo(kwid, renault). % direção mecânica % manual % 5 marchas % 70cv % motor 1.0 % 3 cilindros % 5 portas
 modelo(captur, renault). % direção eletro-hidráulica % manual % 5 marchas % 120cv % motor 1.6 % 4 cilindros % 5 portas
-modelo(duster, renault). % direção eletro-hidráulica % manual % 5 marchas % 120cv % motor 1.6 % 4 cilindros % 5 portas
-modelo(duster-orochi, renault). % direção eletro-hidráulica % manual % 5 marchas % 120cv % motor 1.6 % 4 cilindros % 4 portas
-modelo(fluence, renault).  % direção elétrica % cvt/manual % cvt % 143cv % motor 2.0 % 4 cilindros % 4 portas
-modelo(kangoo, renault).  % direção mecânica % manual % 5 marchas % 98cv % motor 1.6 % 4 cilindros % 3 portas
+modelo(duster, renault). 
+modelo(duster-orochi, renault). 
+modelo(fluence, renault). 
+modelo(kangoo, renault). 
 
-modelo(toro, fiat).% direção elétrica % manual/automática % 6 marchas % 139cv % motor 1.7 % 4 cilindros % 4 portas
-modelo(mobi, fiat).% direção mecânica % manual % 5 marchas % 75cv % motor 1.0 % 4 cilindros % 5 portas
-modelo(uno, fiat).% direção elétrica % manual % 5 marchas % 77cv % motor 1.0 % 4 cilindros % 5 portas
-modelo(argo, fiat).% direção elétrica % manual/automática % 6 marchas % 139cv % motor 1.7 % 4 cilindros % 5 portas
-modelo(palio, fiat).% direção mecânica % manual % 5 marchas % 75cv % motor 1.0 % 4 cilindros % 5 portas
-modelo(punto, fiat).% direção hidráulica % manual % 5 marchas % 88cv % motor 1.4 % 4 cilindros % 5 portas
-modelo(500, fiat).% direção elétrica % manual % 5 marchas % 88cv % motor 1.4 % 4 cilindros % 3 portas
-modelo(grand-siena, fiat).% direção hidráulica % manual % 5 marchas % 75cv % motor 1.0 % 4 cilindros % 4 portas
-modelo(weekend, fiat).% direção hidráulica % manual % 5 marchas % 86cv % motor 1.4 % 4 cilindros % 5 portas
-modelo(strada, fiat).% direção mecânica % manual % 5 marchas % 88cv % motor 1.4 % 4 cilindros % 2 portas
-modelo(doblo, fiat).% direção hidráulica % manual % 5 marchas % 132cv % motor 1.7 % 4 cilindros % 5 portas
-modelo(ducato, fiat). % direção hidráulica % manual % 5 marchas % 127cv % motor 2.3 % 4 cilindros % 4 portas
+modelo(toro, fiat).
+modelo(mobi, fiat).
+modelo(uno, fiat).
+modelo(argo, fiat).
+modelo(palio, fiat).
+modelo(punto, fiat).
+modelo(500, fiat).
+modelo(grand-siena, fiat).
+modelo(weekend, fiat).
+modelo(strada, fiat).
+modelo(doblo, fiat).
+modelo(ducato, fiat). 
 
 modelo(cherokee, jeep).
-modelo(gran-cherokee, jeep).% direção elétrica % manual/automática % 8 marchas % 241cv % motor 3.6 % 4 cilindros % 5 portas
+modelo(gran-cherokee, jeep).
 modelo(renegade, jeep).
-modelo(compass, jeep).% direção elétrica % manual/automática % 6 marchas % 166cv % motor 2.0 % 4 cilindros % 5 portas
+modelo(compass, jeep).
 modelo(wrangler, jeep).
 
 modelo(s, tesla). 
@@ -641,11 +641,11 @@ combustivel(gasolina, doblo).
 combustivel(alcool, doblo).
 combustivel(diesel, ducato).
 
-%combustivel(gasolina, cherokee).
-%combustivel(gasolina, gran-cherokee).
+combustivel(gasolina, cherokee).
+combustivel(gasolina, gran-cherokee).
 combustivel(alcool, renegade).
 combustivel(alcool, compass).
-%combustivel(gasolina, wrangler).
+combustivel(gasolina, wrangler).
 
 combustivel(eletrico, s).
 combustivel(eletrico, x).
@@ -730,3 +730,110 @@ direcao(eletrica, etios).
 direcao(hidraulica, sw4).
 direcao(eletrica, rav4).
 direcao(eletrica, prius).
+
+direcao(eletrica, fusca).
+direcao(eletrica, polo).
+direcao(mecanica, gol).
+direcao(mecanica, up).
+direcao(eletrica, fox).
+direcao(eletrica, spacefox).
+direcao(eletrica, golf).
+direcao(mecanica, voyage).
+direcao(eletrica, jetta).
+direcao(eletrica, passat).
+direcao(eletrica, golf-variant).
+direcao(eletrica, tiguan).
+direcao(eletro-hidraulica, touareg).
+direcao(mecanica, saveiro).
+direcao(hidraulica, amarok).
+
+direcao(eletrica, ka).
+direcao(eletrica, fiesta).
+direcao(eletrica, focus).
+direcao(eletrica, fusion).
+direcao(eletrica, mustang).
+direcao(eletrica, ranger).
+direcao(eletrica, ecosport).
+direcao(eletrica, edge).
+
+direcao(eletrica, versa).
+direcao(eletrica, march).
+direcao(eletrica, sentra).
+direcao(eletrica, kicks).
+direcao(hidraulica, frontier).
+direcao(eletrica, gt-r).
+
+direcao(eletrica, creta).
+direcao(hidraulica, hb20).
+direcao(eletrica, i30).
+direcao(eletrica, elantra).
+direcao(hidraulica, azera).
+direcao(hidraulica, tucson).
+direcao(hidraulica, ix35).
+direcao(hidraulica, santa-fe).
+
+direcao(eletrica, civic).
+direcao(eletrica, city).
+direcao(eletrica, fit).
+direcao(eletrica, wr-v).
+direcao(eletrica, hr-v).
+direcao(eletrica, cr-v).
+direcao(eletrica, accord).
+
+direcao(eletrica, onix).
+direcao(eletrica, prisma).
+direcao(eletrica, cobalt).
+direcao(eletrica, spin).
+direcao(eletrica, cruze).
+direcao(eletrica, tracker).
+direcao(eletrica, equinox).
+direcao(eletrica, trailblazer).
+direcao(hidraulica, montana).
+direcao(eletrica, s10).
+direcao(eletrica, camaro).
+direcao(eletrica, corvette).
+
+direcao(eletrica, soul).
+direcao(eletrica, picanto).
+direcao(eletrica, cerato).
+direcao(hidraulica, optima).
+direcao(hidraulica, cadenza).
+direcao(eletro-hidraulica, quoris).
+direcao(eletrica, sportage).
+direcao(eletrica, sorento).
+direcao(hidraulica, mohave).
+
+
+direcao(eletro-hidraulica, sandero).
+direcao(eletro-hidraulica, logan).
+direcao(mecanica, kwid).
+direcao(eletro-hidraulica, captur).
+%direcao(hidraulica, duster).
+%direcao(hidraulica, duster-orochi).
+%direcao(hidraulica, fluence).
+%direcao(hidraulica, kangoo).
+
+%direcao(hidraulica, toro).
+%direcao(hidraulica, mobi).
+%direcao(hidraulica, uno).
+%direcao(hidraulica, argo).
+%direcao(hidraulica, palio).
+%direcao(hidraulica, punto).
+%direcao(hidraulica, 500).
+%direcao(hidraulica, grand-siena).
+%direcao(hidraulica, weekend).
+%direcao(hidraulica, strada).
+%direcao(hidraulica, doblo).
+%direcao(hidraulica, ducato).
+
+%direcao(hidraulica, cherokee).
+%direcao(hidraulica, gran-cherokee).
+%direcao(hidraulica, renegade).
+%direcao(hidraulica, compass).
+%direcao(hidraulica, wrangler).
+
+%direcao(hidraulica, s).
+%direcao(hidraulica, x).
+%direcao(hidraulica, 3).
+%direcao(hidraulica, roadster-2009).
+%direcao(hidraulica, roadster).
