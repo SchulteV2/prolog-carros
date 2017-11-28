@@ -16,12 +16,8 @@ fabricado(honda, japao).
 fabricado(chevrolet, estados-unidos).
 fabricado(kia, coreia-do-sul).
 fabricado(renault, franca).
-fabricado(merecedez-benz, alemanha).
-fabricado(mazda, japao).
 fabricado(fiat, italia).
 fabricado(jeep, estados-unidos).
-fabricado(chrysler, estados-unidos).
-fabricado(suruba, estados-unidos).
 fabricado(tesla, estados-unidos).
 
 modelo(phantom, rolls-royce).  % direção hidráulica % automatico % 8 marchas % 460cv % motor 6.7 % v12 % 4 portas
@@ -53,6 +49,7 @@ modelo(f12tdf, ferrari). % direção hidráulica % automatica/manual % 7 marchas
 modelo(laFerrari, ferrari). % direção elétrica % automatica/manual % 7 marchas % 963cv % motor 6.3/elétrico % v12 % 2 portas
 modelo(laFerrari-aperta, ferrari).% direção elétrica % automatica/manual % 7 marchas % 963cv % motor 6.3/elétrico % v12 % 2 portas
 
+<<<<<<< Updated upstream
 modelo(m140i, bmw). % alcool/gasolina % direção elétrica % automatica/manual % 8 marchas % 340cv % motor 3.0 % 6 cilindros % 5 portas
 modelo(m220i, bmw). % alcool/gasolina % direção elétrica % automatica/manual % 8 marchas % 192cv % motor 2.0 % 6 cilindros % 5 portas
 modelo(x1, bmw). % alcool/gasolina % direção elétrica % automatica/manual % 8 marchas % 192cv % motor 2.0 % 6 cilindros % 5 portas
@@ -182,6 +179,137 @@ modelo(duster, renault). % gasolina/alcool
 modelo(duster-orochi, renault). % gasolina/alcool
 modelo(fluence, renault). % gasolina/alcool
 modelo(kangoo, renault). % gasolina/alcool
+=======
+modelo(m140i, bmw). % direção elétrica % automatica/manual % 8 marchas % 340cv % motor 3.0 % 6 cilindros % 5 portas
+modelo(m220i, bmw). % direção elétrica % automatica/manual % 8 marchas % 192cv % motor 2.0 % 6 cilindros % 5 portas
+modelo(x1, bmw). direção elétrica % automatica/manual % 8 marchas % 192cv % motor 2.0 % 6 cilindros % 5 portas
+modelo(x3, bmw). % direção elétrica % automatica/manual % 8 marchas % 184cv % motor 2.0 % 6 cilindros % 5 portas
+modelo(x4, bmw). % direção elétrica % automatica/manual % 8 marchas % 245cv % motor 2.0 % 4 cilindros % 5 portas
+modelo(x5, bmw). % direção elétrica % automatica/manual % 8 marchas % 258cv % motor 3.0 % 6 cilindros % 5 portas
+modelo(x6, bmw). % direção elétrica % automatica/manual % 8 marchas % 306cv % motor 3.0 % 6 cilindros % 5 portas
+modelo(m2, bmw). % direção elétrica % automatica/manual % 7 marchas % 370cv % motor 3.0 % 6 cilindros % 2 portas
+modelo(m3, bmw). % direção elétrica % automatica/manual % 7 marchas % 431cv % motor 3.0 % 6 cilindros % 4 portas
+modelo(m6, bmw). % direção hidráulica % automatica/manual % 7 marchas % 560cv % motor 4.4 % 8 cilindros % 4 portas
+modelo(x6-m, bmw). % direção elétrica % automatica/manual % 8 marchas % 575cv % motor 3.0 % 8 cilindros % 5 portas
+modelo(i3, bmw). % direção elétrica % automatica % 1 marcha % 170cv % motor 0.6/elétrico % 2 cilindros/elétrico % 5 portas
+modelo(i8, bmw). % direção elétrica % automatica/manual % 6 marchas % 362cv % motor 1.5 % 3 cilindros/elétrico % 2 portas
+
+modelo(aventador, lamborghini).
+modelo(huracan-spider, lamborghini).
+modelo(centenario, lamborghini). 
+modelo(veneno, lamborghini). 
+modelo(urus, lamborghini). 
+
+modelo(718-cayman, porsche).
+modelo(718-boxter, porsche). 
+modelo(911-carrera, porsche). 
+modelo(911-targa4, porsche).
+modelo(911-turboS, porsche). 
+modelo(panamera-turbo, porsche). 
+modelo(macan, porsche). 
+modelo(cayenne, porsche). 
+
+modelo(veyron, bugatti). 
+modelo(chiron, bugatti). 
+
+modelo(r8, audi). 
+modelo(a1, audi).
+modelo(a3, audi).
+modelo(a4, audi). 
+modelo(a6, audi). 
+modelo(a7, audi). 
+modelo(q3, audi). 
+modelo(q7, audi). 
+modelo(tt, audi). 
+
+modelo(corolla, toyota). 
+modelo(hilux, toyota). 
+modelo(etios, toyota).
+modelo(sw4, toyota). 
+modelo(rav4, toyota). 
+modelo(prius, toyota). 
+
+modelo(fusca, volkswagen). 
+modelo(polo, volkswagen). 
+modelo(gol, volkswagen). 
+modelo(up, volkswagen). 
+modelo(fox, volkswagen). 
+modelo(spacefox, volkswagen). 
+modelo(golf, volkswagen). 
+modelo(voyage, volkswagen). 
+modelo(jetta, volkswagen). 
+modelo(passat, volkswagen). 
+modelo(golf-variant, volkswagen). 
+modelo(tiguan, volkswagen). 
+modelo(touareg, volkswagen). 
+modelo(saveiro, volkswagen). 
+modelo(amarok, volkswagen). 
+
+modelo(ka, ford). 
+modelo(fiest, ford). 
+modelo(focus, ford). 
+modelo(fusion, ford).
+modelo(mustang, ford). 
+modelo(ranger, ford). 
+modelo(ecosport, ford). 
+modelo(edge, ford). 
+
+modelo(versa, nissan).
+modelo(march, nissan). 
+modelo(sentra, nissan). 
+modelo(kicks, nissan). 
+modelo(frontier, nissan).
+modelo(gt-r, nissan). 
+
+modelo(creta, hyundai). 
+modelo(hb20, nissan). 
+modelo(i30, nissan).
+modelo(elantra, nissan).
+modelo(azera, nissan). 
+modelo(tucson, nissan). 
+modelo(ix35, nissan). 
+modelo(santa-fe, nissan).
+
+modelo(civic, honda). 
+modelo(city, honda). 
+modelo(fit, honda). 
+modelo(wr-v, honda). 
+modelo(hr-v, honda). 
+modelo(cr-v, honda). 
+modelo(accord, honda). 
+
+modelo(onix, chevrolet). 
+modelo(prisma, chevrolet). 
+modelo(cobalt, chevrolet). 
+modelo(spin, chevrolet). 
+modelo(cruze, chevrolet). 
+modelo(tracker, chevrolet). 
+modelo(equinox, chevrolet). 
+modelo(trailblazer, chevrolet). 
+modelo(montana, chevrolet). 
+modelo(s10, chevrolet). 
+modelo(camaro, chevrolet). 
+modelo(corvette, chevrolet). 
+
+modelo(soul, kia).
+modelo(picanto, kia). 
+modelo(cerato, kia). 
+modelo(optima, kia). 
+modelo(cadenza, kia). 
+modelo(quoris, kia).
+modelo(sportage, kia). 
+modelo(sorento, kia). 
+modelo(mohave, kia).
+
+modelo(sandero, renault).
+modelo(logan, renault). 
+modelo(kwid, renault). 
+modelo(captur, renault). 
+modelo(duster, renault). 
+modelo(duster-orochi, renault). 
+modelo(fluence, renault). 
+modelo(kangoo, renault). 
+>>>>>>> Stashed changes
 
 modelo(toro, fiat). % gasolina/alcool
 modelo(mobi, fiat). % gasolina/alcool
@@ -202,6 +330,17 @@ modelo(renegade, jeep). % gasolina/alcool
 modelo(compass, jeep). % gasolina/alcool
 modelo(wrangler, jeep). % gasolina
 
+<<<<<<< Updated upstream
+=======
+modelo(impreza ,suruba). % gasolina
+modelo(xv ,suruba). % gasolina
+modelo(forester ,suruba). % gasolina
+modelo(legacy ,suruba). % gasolina
+modelo(outback ,suruba). % gasolina
+modelo(wrx ,suruba). % gasolina
+modelo(wrx-sti ,suruba). % gasolina
+
+>>>>>>> Stashed changes
 modelo(s, tesla). % elétrico
 modelo(x, tesla). % elétrico
 modelo(3, tesla). % elétrico
@@ -389,6 +528,17 @@ tipo(suv, renegade).
 tipo(suv, compass).
 tipo(jipe, wrangler).
 
+<<<<<<< Updated upstream
+=======
+tipo(sedan, impreza).
+tipo(suv, xv).
+tipo(suv, forester).
+tipo(sedan, legacy).
+tipo(suv, outback).
+tipo(coupe, wrx).
+tipo(coupe, wrx-sti).
+
+>>>>>>> Stashed changes
 tipo(sedan, s).
 tipo(suv, x).
 tipo(coupe, 3).
@@ -428,3 +578,218 @@ combustivel(gasolina, gtc4Lusso).
 combustivel(gasolina, f12tdf).
 combustivel(gasolina, laFerrari).
 combustivel(gasolina, laFerrari-aperta).
+
+combustivel(gasolina, m140i).
+combustivel(alcool, m140i).
+combustivel(gasolina, m220i).
+combustivel(alcool, m220i).
+combustivel(gasolina, x1).
+combustivel(alcool, x1).
+combustivel(gasolina, x3).
+combustivel(gasolina, x4).
+combustivel(diesel, x5).
+combustivel(gasolina, x6).
+combustivel(gasolina, m2).
+combustivel(gasolina, m3).
+combustivel(gasolina, m6).
+combustivel(gasolina, x6-m).
+combustivel(gasolina, i3).
+combustivel(eletrico, i3).
+combustivel(gasolina, i8).
+combustivel(eletrico, i8).
+
+combustivel(gasolina, aventador).
+combustivel(gasolina, huracan-spider).
+combustivel(gasolina, centenario).
+combustivel(gasolina, veneno).
+combustivel(gasolina, urus).
+
+combustivel(gasolina, 718-cayman).
+combustivel(gasolina, 718-boxter).
+combustivel(gasolina, 911-carrera).
+combustivel(gasolina, 911-targa4).
+combustivel(gasolina, 911-turboS).
+combustivel(gasolina, panamera-turbo).
+combustivel(gasolina, macan).
+combustivel(gasolina, cayenne).
+
+combustivel(gasolina, veyron).
+combustivel(gasolina, chiron).
+
+combustivel(gasolina, r8).
+combustivel(gasolina, a1).
+combustivel(gasolina, a3).
+combustivel(gasolina, a4).
+combustivel(gasolina, a6).
+combustivel(gasolina, a7).
+combustivel(gasolina, q3).
+combustivel(alcool, q3).
+combustivel(diesel, q7).
+combustivel(gasolina, tt).
+
+combustivel(gasolina, corolla).
+combustivel(alcool, corolla).
+combustivel(diesel, hilux).
+combustivel(gasolina, etios).
+combustivel(alcool, etios).
+combustivel(gasolina, sw4).
+combustivel(alcool, sw4).
+combustivel(gasolina, rav4).
+combustivel(gasolina, prius).
+combustivel(eletrico, prius).
+
+combustivel(gasolina, fusca).
+combustivel(gasolina, polo).
+combustivel(alcool, polo).
+combustivel(gasolina, gol).
+combustivel(alcool, gol).
+combustivel(gasolina, up).
+combustivel(alcool, up).
+combustivel(gasolina, fox).
+combustivel(alcool, fox).
+combustivel(gasolina, spacefox).
+combustivel(alcool, spacefox).
+combustivel(gasolina, golf).
+combustivel(alcool, golf).
+combustivel(gasolina, voyage).
+combustivel(alcool, voyage).
+combustivel(gasolina, jetta).
+combustivel(gasolina, passat).
+combustivel(gasolina, golf-variant).
+combustivel(alcool, golf-variant).
+combustivel(gasolina, tiguan).
+combustivel(gasolina, touareg).
+combustivel(gasolina, saveiro).
+combustivel(alcool, saveiro).
+combustivel(diesel, amarok).
+
+combustivel(gasolina, ka).
+combustivel(alcool, ka).
+combustivel(gasolina, fiest).
+combustivel(alcool, fiest).
+combustivel(gasolina, focus).
+combustivel(alcool, focus).
+combustivel(gasolina, fusion).
+combustivel(alcool, fusion).
+combustivel(gasolina, mustang).
+combustivel(gasolina, ranger).
+combustivel(alcool, ranger).
+combustivel(gasolina, ecosport).
+combustivel(alcool, ecosport).
+combustivel(gasolina, edge).
+
+combustivel(gasolina, versa).
+combustivel(alcool, versa).
+combustivel(gasolina, march).
+combustivel(alcool, march).
+combustivel(gasolina, sentra).
+combustivel(alcool, sentra).
+combustivel(gasolina, kicks).
+combustivel(alcool, kicks).
+combustivel(diesel, frontier).
+combustivel(gasolina, gt-r).
+
+combustivel(gasolina, creta).
+combustivel(alcool, creta).
+combustivel(gasolina, hb20).
+combustivel(alcool, hb20).
+combustivel(gasolina, i30).
+combustivel(gasolina, elantra).
+combustivel(alcool, elantra).
+combustivel(gasolina, azera).
+combustivel(gasolina, tucson).
+combustivel(alcool, tucson).
+combustivel(gasolina, ix35).
+combustivel(alcool, ix35).
+combustivel(gasolina, santa-fe).
+
+combustivel(gasolina, civic).
+combustivel(alcool, civic).
+combustivel(gasolina, city).
+combustivel(alcool, city).
+combustivel(gasolina, fit).
+combustivel(alcool, fit).
+combustivel(gasolina, wr-v).
+combustivel(alcool, wr-v).
+combustivel(gasolina, hr-v).
+combustivel(alcool, hr-v).
+combustivel(gasolina, cr-v).
+combustivel(alcool, cr-v).
+combustivel(gasolina, accord).
+
+combustivel(gasolina, onix).
+combustivel(alcool, onix).
+combustivel(gasolina, prisma).
+combustivel(alcool, prisma).
+combustivel(gasolina, cobalt).
+combustivel(alcool, cobalt).
+combustivel(gasolina, spin).
+combustivel(alcool, spin).
+combustivel(gasolina, cruze).
+combustivel(alcool, cruze).
+combustivel(gasolina, tracker).
+combustivel(alcool, tracker).
+combustivel(gasolina, equinox).
+combustivel(gasolina, trailblazer).
+combustivel(gasolina, montana).
+combustivel(alcool, montana).
+combustivel(gasolina, s10).
+combustivel(alcool, s10).
+combustivel(diesel, s10).
+combustivel(gasolina, camaro).
+combustivel(gasolina, corvette).
+
+combustivel(gasolina, soul).
+combustivel(alcool, soul).
+combustivel(gasolina, picanto).
+combustivel(alcool, picanto).
+combustivel(gasolina, cerato).
+combustivel(alcool, cerato).
+combustivel(gasolina, optima).
+combustivel(gasolina, cadenza).
+combustivel(gasolina, quoris).
+combustivel(gasolina, sportage).
+combustivel(alcool, sportage).
+combustivel(gasolina, sorento).
+combustivel(diesel, mohave).
+
+combustivel(gasolina, sandero).
+combustivel(alcool, sandero).
+combustivel(gasolina, logan).
+combustivel(alcool, logan).
+combustivel(gasolina, kwid).
+combustivel(alcool, kwid).
+combustivel(gasolina, captur).
+combustivel(alcool, captur).
+combustivel(gasolina, duster).
+combustivel(alcool, duster).
+combustivel(gasolina, duster-orochi).
+combustivel(alcool, duster-orochi).
+combustivel(gasolina, fluence).
+combustivel(alcool, fluence).
+combustivel(gasolina, kangoo).
+combustivel(alcool, kangoo).
+
+combustivel(gasolina, toro).
+combustivel(alcool, toro).
+combustivel(gasolina, mobi).
+combustivel(alcool, mobi).
+combustivel(gasolina, uno).
+combustivel(alcool, uno).
+combustivel(gasolina, argo).
+combustivel(alcool, argo).
+combustivel(gasolina, palio).
+combustivel(alcool, palio).
+combustivel(gasolina, punto).
+combustivel(alcool, punto).
+combustivel(gasolina, 500).
+combustivel(alcool, 500).
+combustivel(gasolina, grand-siena).
+combustivel(alcool, grand-siena).
+combustivel(gasolina, weekend).
+combustivel(alcool, weekend).
+combustivel(gasolina, strada).
+combustivel(alcool, strada).
+combustivel(gasolina, doblo).
+combustivel(alcool, doblo).
+combustivel(diesel, ducato).
