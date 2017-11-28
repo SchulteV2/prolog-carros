@@ -112,56 +112,57 @@ modelo(x6-m, bmw). % direção elétrica % automatica/manual % 8 marchas % 575cv
 modelo(i3, bmw). % direção elétrica % automatica % 1 marcha % 170cv % motor 0.6/elétrico % 2 cilindros/elétrico % 5 portas
 modelo(i8, bmw). % direção elétrica % automatica/manual % 6 marchas % 362cv % motor 1.5 % 3 cilindros/elétrico % 2 portas
 
-modelo(aventador, lamborghini).
-modelo(huracan-spider, lamborghini).
-modelo(centenario, lamborghini). 
-modelo(veneno, lamborghini). 
-modelo(urus, lamborghini). 
+modelo(aventador, lamborghini). % direção elétrica % automatica/manual % 7 marchas % 700cv % motor 6.5 % v12 % 2 portas
+modelo(huracan-spider, lamborghini).% direção hidráulica % automatica/manual % 7 marchas % 610cv % motor 5.2 % v10 % 2 portas
+modelo(centenario, lamborghini).% direção hidráulica % automatica/manual % 7 marchas % 769cv % motor 6.5 % v12 % 2 portas
+modelo(veneno, lamborghini).% direção elétrica % automatica/manual % 7 marchas % 750cv % motor 6.5 % v12 % 2 portas
+modelo(urus, lamborghini).% direção elétrica % automatica/manual % 7 marchas % 659cv % motor 4.0 % v8 % 5 portas
 
-modelo(718-cayman, porsche).
-modelo(718-boxter, porsche). 
-modelo(911-carrera, porsche). 
-modelo(911-targa4, porsche).
-modelo(911-turboS, porsche). 
-modelo(panamera-turbo, porsche). 
-modelo(macan, porsche). 
-modelo(cayenne, porsche). 
+modelo(718-cayman, porsche). % direção hidráulica % automatica/manual % 7 marchas % 300cv % motor 2.0 % 4 cilindros % 3 portas
+modelo(718-boxter, porsche). % direção elétrica % automatica/manual % 7 marchas % 300cv % motor 2.0 % 4 cilindros % 2 portas
+modelo(911-carrera, porsche). % direção elétrica % automatica/manual % 7 marchas % 370cv % motor 3.0 % 6 cilindros % 2 portas
+modelo(911-targa4, porsche). % direção elétrica % automatica/manual % 7 marchas % 370cv % motor 3.8 % 6 cilindros % 2 portas
+modelo(911-turboS, porsche). % direção elétrica % automatica/manual % 7 marchas % 580cv % motor 3.9 % 6 cilindros % 2 portas
+modelo(panamera-turbo, porsche). % direção elétrica % automatica/manual % 8 marchas % 550cv % motor 4.0 % v8 % 5 portas
+modelo(macan, porsche). % direção elétrica % automatica/manual % 7 marchas % 252cv % motor 2.0 % 4 cilindros % 5 portas
+modelo(cayenne, porsche). % direção eletro-hidráulica % automatica/manual % 8 marchas % 300cv % motor 3.6 % 6 cilindros % 5 portas
 
-modelo(veyron, bugatti). 
-modelo(chiron, bugatti). 
+modelo(veyron, bugatti). % direção elétrica % automatica/manual % 7 marchas % 1014cv % motor 8.0 % w16 % 2 portas
+modelo(chiron, bugatti). % direção elétrica % semiautomático % 7 marchas % 1500cv % motor 8.0 % w16 % 2 portas
 
-modelo(r8, audi). 
-modelo(a1, audi).
-modelo(a3, audi).
-modelo(a4, audi). 
-modelo(a6, audi). 
-modelo(a7, audi). 
-modelo(q3, audi). 
-modelo(q7, audi). 
-modelo(tt, audi). 
+modelo(r8, audi). % direção hidráulica % automatica/manual % 7 marchas % 610cv % motor 5.2 % v10 % 2 portas
+modelo(a1, audi). % direção elétro-hidráulica % automatica/manual % 7 marchas % 125cv % motor 1.4 % 4 cilindros % 5 portas
+modelo(a3, audi). % direção elétrica % automatica/manual % 7 marchas % 122cv % motor 1.4 % 4 cilindros % 5 portas
+modelo(a4, audi). % direção elétrica % automatica/manual % 7 marchas % 190cv % motor 2.0 % 4 cilindros % 4 portas
+modelo(a6, audi). % direção elétrica % automatica/manual % 7 marchas % 252cv % motor 2.0 % 4 cilindros % 4 portas
+modelo(a7, audi). % direção elétrica % automatica/manual % 7 marchas % 333cv % motor 3.0 % 4 cilindros % 5 portas
+modelo(q3, audi). % direção elétrica % automatica/manual % 6 marchas % 150cv % motor 1.4 % 4 cilindros % 5 portas
+modelo(q7, audi). % diesel % direção elétrica % automatica/manual % 8 marchas % 258cv % motor 3.0 % v6 % 5 portas
+modelo(tt, audi). % direção elétrica % automatica/manual % 6 marchas % 230cv % motor 2.0 % 4 cilindros % 3 portas
 
-modelo(corolla, toyota). 
-modelo(hilux, toyota). 
-modelo(etios, toyota).
-modelo(sw4, toyota). 
-modelo(rav4, toyota). 
-modelo(prius, toyota). 
+modelo(corolla, toyota). % direção elétrica % cvt/manual % cvt % 154cv % motor 2.0 % 4 cilindros % 4 portas
+modelo(hilux, toyota). % direção hidráulica % manual % 6 marchas % 177cv % motor 2.8 % 4 cilindros % 2 portas
+modelo(etios, toyota).% direção elétrica % manual % 6 marchas % 98cv % motor 1.3 % 4 cilindros % 5 portas
+modelo(sw4, toyota).% direção hidráulica % manual % 5 marchas % 163cv % motor 2.7 % 4 cilindros % 5 portas
+modelo(rav4, toyota). % direção elétrica % cvt/manual % cvt % 145cv % motor 2.0 % 4 cilindros % 5 portas
+modelo(prius, toyota). % direção elétrica % cvt % cvt % 123cv % motor 1.8/elétrico % 4 cilindros/elétrico % 5 portas
 
-modelo(fusca, volkswagen). 
-modelo(polo, volkswagen). 
-modelo(gol, volkswagen). 
-modelo(up, volkswagen). 
-modelo(fox, volkswagen). 
-modelo(spacefox, volkswagen). 
-modelo(golf, volkswagen). 
-modelo(voyage, volkswagen). 
-modelo(jetta, volkswagen). 
-modelo(passat, volkswagen). 
-modelo(golf-variant, volkswagen). 
-modelo(tiguan, volkswagen). 
-modelo(touareg, volkswagen). 
-modelo(saveiro, volkswagen). 
-modelo(amarok, volkswagen). 
+modelo(fusca, volkswagen).
+modelo(polo, volkswagen).
+modelo(gol, volkswagen). % direção mecânica % manual % 5 marchas % 82cv % motor 1.0 % 4 cilindros % 5 portas
+modelo(up, volkswagen).
+modelo(fox, volkswagen). % direção elétrica % manual % 5 marchas % 82cv % motor 1.0 % 4 cilindros % 5 portas
+modelo(spacefox, volkswagen).
+modelo(golf, volkswagen).% direção elétrica % automatica/manual % 6 marchas % 220cv % motor 2.0 % 4 cilindros % 5 portas
+modelo(voyage, volkswagen).
+modelo(jetta, volkswagen).
+modelo(passat, volkswagen).
+modelo(golf-variant, volkswagen).
+modelo(tiguan, volkswagen).
+modelo(touareg, volkswagen).
+modelo(saveiro, volkswagen).
+modelo(amarok, volkswagen).% direção hidráulica % manual % 6 marchas % 140cv % motor 2.0 % v6 % 2 portas
+
 
 modelo(ka, ford). 
 modelo(fiest, ford). 
@@ -228,24 +229,24 @@ modelo(duster-orochi, renault).
 modelo(fluence, renault). 
 modelo(kangoo, renault). 
 
-modelo(toro, fiat). % gasolina/alcool
-modelo(mobi, fiat). % gasolina/alcool
-modelo(uno, fiat). % gasolina/alcool
-modelo(argo, fiat). % gasolina/alcool
-modelo(palio, fiat). % gasolina/alcool
-modelo(punto, fiat). % gasolina/alcool
-modelo(500, fiat). % gasolina/alcool
-modelo(grand-siena, fiat). % gasolina/alcool
-modelo(weekend, fiat). % gasolina/alcool
-modelo(strada, fiat). % gasolina/alcool
-modelo(doblo, fiat). % gasolina/alcool
+modelo(toro, fiat)./alcool
+modelo(mobi, fiat)./alcool
+modelo(uno, fiat)./alcool
+modelo(argo, fiat)./alcool
+modelo(palio, fiat)./alcool
+modelo(punto, fiat)./alcool
+modelo(500, fiat)./alcool
+modelo(grand-siena, fiat)./alcool
+modelo(weekend, fiat)./alcool
+modelo(strada, fiat)./alcool
+modelo(doblo, fiat)./alcool
 modelo(ducato, fiat). % diesel
 
-modelo(cherokee, jeep). % gasolina
-modelo(gran-cherokee, jeep). % gasolina
-modelo(renegade, jeep). % gasolina/alcool
-modelo(compass, jeep). % gasolina/alcool
-modelo(wrangler, jeep). % gasolina
+modelo(cherokee, jeep).
+modelo(gran-cherokee, jeep).
+modelo(renegade, jeep)./alcool
+modelo(compass, jeep)./alcool
+modelo(wrangler, jeep).
 
 modelo(s, tesla). % elétrico
 modelo(x, tesla). % elétrico
