@@ -1113,3 +1113,187 @@ cambio(eletrico, x).
 cambio(eletrico, 3).
 cambio(eletrico, roadster-2009).
 cambio(eletrico, roadster).
+
+marchas(8, phantom).
+marchas(8, wraith).
+marchas(8, dawn).
+marchas(8, ghost).
+marchas(8, cullinan).
+marchas(8, sweptail).
+
+marchas(5, 208).
+marchas(6, 308).
+marchas(6, 408).
+marchas(5, 2008).
+marchas(5, partner).
+
+marchas(8, ghibli).
+marchas(8, levante).
+marchas(8, quattroporte).
+marchas(6, granTurismo).
+marchas(6, granCabrio).
+
+marchas(7, 488-spider).
+marchas(7, 488-gTB).
+marchas(7, 812-superFast).
+marchas(7, portofino).
+marchas(7, gtc4Lusso-t).
+marchas(7, gtc4Lusso).
+marchas(7, f12tdf).
+marchas(7, laFerrari).
+marchas(7, laFerrari-aperta).
+
+marchas(8, m140i).
+marchas(8, m220i).
+marchas(8, x1).
+marchas(8, x3).
+marchas(8, x4).
+marchas(8, x5).
+marchas(8, x6).
+marchas(7, m2).
+marchas(7, m3).
+marchas(7, m6).
+marchas(8, x6-m).
+marchas(1, i3).
+marchas(6, i8).
+
+marchas(7, aventador).
+marchas(7, huracan-spider).
+marchas(7, centenario).
+marchas(7, veneno).
+marchas(7, urus).
+
+marchas(7, 718-cayman).
+marchas(7, 718-boxter).
+marchas(7, 911-carrera).
+marchas(7, 911-targa4).
+marchas(7, turboS).
+marchas(8, panarema_turbo).
+marchas(7, macan).
+marchas(8, cayenne).
+
+marchas(7, veyron).
+marchas(7, chiron).
+
+marchas(7, r8).
+marchas(7, a1).
+marchas(7, a3).
+marchas(7, a4).
+marchas(7, a6).
+marchas(7, a7).
+marchas(6, q3).
+marchas(8, q7).
+marchas(6, tt).
+
+marchas(cvt, corolla).
+marchas(6, hilux).
+marchas(6, etios).
+marchas(5, sw4).
+marchas(cvt, rav4).
+marchas(cvt, prius).
+
+marchas(6, fusca).
+marchas(5, polo).
+marchas(5, gol).
+marchas(5, up).
+marchas(5, fox).
+marchas(5, spacefox).
+marchas(6, golf).
+marchas(5, voyage).
+marchas(6, jetta).
+marchas(6, passat).
+marchas(6, golf-variant).
+marchas(6, tiguan).
+marchas(8, touareg).
+marchas(5, saveiro).
+marchas(6, amarok).
+
+marchas(5, ka).
+marchas(5, ka).
+marchas(6, fiesta).
+marchas(6, focus).
+marchas(6, fusion).
+marchas(6, mustang).
+marchas(5, ranger).
+marchas(5, ecosport).
+marchas(6, edge).
+
+marchas(5, versa).
+marchas(5, march).
+marchas(cvt, sentra).
+marchas(5, kicks).
+marchas(7, frontier).
+marchas(6, gt-r).
+
+marchas(6, creta).
+marchas(5, hb20).
+marchas(6, i30).
+marchas(6, elantra).
+marchas(6, azera).
+marchas(4, tucson).
+marchas(6, ix35).
+marchas(6, santa-fe).
+
+marchas(6, civic).
+marchas(5, city).
+marchas(5, fit).
+marchas(cvt, wr-v).
+marchas(6, hr-v).
+marchas(5, cr-v).
+marchas(6, accord).
+
+marchas(6, onix).
+marchas(6, prisma).
+marchas(6, cobalt).
+marchas(6, spin).
+marchas(6, cruze).
+marchas(6, tracker).
+marchas(9, equinox).
+marchas(6, trailblazer).
+marchas(5, montana).
+marchas(6, s10).
+marchas(8, camaro).
+marchas(7, corvette).
+
+marchas(6, soul).
+marchas(5, picanto).
+marchas(6, cerato).
+marchas(6, optima).
+marchas(6, cadenza).
+marchas(8, quoris).
+marchas(6, sportage).
+marchas(6, sorento).
+marchas(8, mohave).
+
+marchas(5, sandero).
+marchas(5, logan).
+marchas(5, kwid).
+marchas(5, captur).
+marchas(5, duster).
+marchas(5, duster-orochi).
+marchas(cvt, fluence).
+marchas(5, kangoo).
+
+marchas(6, toro).
+marchas(5, mobi).
+marchas(5, uno).
+marchas(6, argo).
+marchas(5, palio).
+marchas(5, punto).
+marchas(5, 500).
+marchas(5, grand-siena).
+marchas(5, weekend).
+marchas(5, doblo).
+marchas(5, ducato).
+
+marchas(5, cherokee).
+marchas(8, gran-cherokee).
+marchas(6, renegade).
+marchas(6, compass).
+marchas(5, wrangler).
+
+marchas(1, s).
+marchas(1, x).
+marchas(1, 3).
+marchas(1, roadster-2009).
+marchas(1, roadster).
