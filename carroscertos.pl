@@ -65,7 +65,6 @@ hipotese(a3) :- a3, !.
 hipotese(a4) :- a4, !.
 hipotese(a6) :- a6, !.
 hipotese(a7) :- a7, !.
-hipotese(q3) :- q3, !.
 hipotese(q7) :- q7, !.
 hipotese(tt) :- tt, !.
 hipotese(corolla) :- corolla, !.
@@ -874,6 +873,181 @@ chiron :- gasolina,
         w16,
         portas2.
 
+r8 :- gasolina, 
+    alemao,
+    audi,
+    esportivo,
+    direcao_hidraulica,
+    cambio_automatico,
+    cambio_manual,
+    marchas7,
+    verificar(tem_610cv),
+    verificar(tem_motor_5ponto2),
+    v10,
+    portas2.
+
+a1 :- gasolina,
+    alemao,
+    audi,
+    hatchback,
+    direcao_eletro_hidraulica,
+    cambio_automatico,
+    cambio_manual,
+    marchas7,
+    verificar(tem_125cv),
+    verificar(tem_motor_1ponto4),
+    cilindros4,
+    portas5.
+
+a3 :- gasolina,
+    alemao,
+    audi,
+    coupe,
+    direcao_eletrica,
+    cambio_automatico,
+    cambio_manual,
+    marchas7,
+    verificar(tem_122cv),
+    verificar(tem_motor_1ponto4),
+    cilindros4,
+    portas5.
+
+a4 :- gasolina,
+    alemao,
+    audi,
+    sedan,
+    direcao_eletrica,
+    cambio_automatico,
+    cambio_manual,
+    marchas7,
+    verificar(tem_190cv),
+    verificar(tem_motor_2ponto0),
+    cilindros4,
+    portas4.
+
+a6 :- gasolina,
+    alemao,
+    audi,
+    sedan,
+    direcao_eletrica,
+    cambio_automatico,
+    cambio_manual,
+    marchas7,
+    verificar(tem_252cv),
+    verificar(tem_motor_2ponto0),
+    cilindros4,
+    portas4.
+
+a7 :- gasolina,
+    alemao,
+    audi,
+    sedan,
+    direcao_eletrica,
+    cambio_automatico,
+    cambio_manual,
+    marchas7,
+    verificar(tem_333cv),
+    verificar(tem_motor_3ponto0),
+    cilindros4,
+    portas5.
+
+
+q7 :- diesel,
+    alemao,
+    audi,
+    suv,
+    direcao_eletrica,
+    cambio_automatico,
+    cambio_manual,
+    marchas8,
+    verificar(tem_258cv),
+    verificar(tem_motor_3ponto0),
+    v6,
+    portas5.
+
+tt :- gasolina,
+    alemao,
+    audi,
+    coupe,
+    direcao_eletrica,
+    cambio_automatico,
+    cambio_manual,
+    marchas6,
+    verificar(tem_230cv),
+    verificar(tem_motor_2ponto0),
+    cilindros4,
+    portas3.
+
+corolla :- gasolina,
+    alcool,
+    japones,
+    sedan,
+    direcao_eletrica,
+    cambio_cvt,
+    cambio_manual,
+    marchas_cvt,
+    verificar(tem_154cv),
+    verificar(tem_motor_2ponto0),
+    cilindros4,
+    portas4.
+    
+hilux :- diesel,
+    japones,
+    pickup,
+    direcao_hidraulica,
+    cambio_manual,
+    marchas6,
+    verificar(tem_177cv),
+    verificar(tem_motor_2ponto8),
+    cilindros4,
+    portas2.
+
+etios :- gasolina,
+    alcool,
+    japones,
+    hatchback,
+    direcao_hidraulica,
+    cambio_manual,
+    marchas6,
+    verificar(tem_98cv),
+    verificar(tem_motor_1ponto3),
+    cilindros4,
+    portas5.
+
+sw4 :- gasolina,
+    alcool,
+    japones,
+    pickup,
+    direcao_hidraulica,
+    cambio_manual,
+    marchas5,
+    verificar(tem_163cv),
+    verificar(tem_motor_2ponto7),
+    cilindros4,
+    portas5.
+
+rav4 :- gasolina,
+    japones,
+    pickup,
+    direcao_eletrica,
+    cambio_cvt,
+    cambio_manual,
+    marchas_cvt,
+    verificar(tem_145cv),
+    verificar(tem_motor_2ponto0),
+    cilindros4,
+    portas5.
+
+prius :- gasolina,
+    eletrico,
+    sedan,
+    direcao_eletrica,
+    cambio_cvt,
+    marchas_cvt,
+    verificar(tem_123cv),
+    verificar(tem_motor_1ponto8),
+    motor_eletrico,
+    portas5.
 
 
 
@@ -925,6 +1099,7 @@ marchas4 :- verificar(quantidades_marchas_é_4), !.
 marchas3 :- verificar(quantidades_marchas_é_3), !.
 marchas2 :- verificar(quantidades_marchas_é_2), !.
 marchas1 :- verificar(quantidades_marchas_é_1), !.
+marchas_cvt :- verificar(marcha_unica_cvt_cone), !.
 
 %portas
 
