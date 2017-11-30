@@ -1,10 +1,12 @@
-iniciar :- hipotese(Carro),
+% Para iniciar o programa execute adivinhar_carro.
+
+adivinhar_carro :- hipotese(Carro),
       write('Eu acho que o carro é: '),
       write(Carro),
       nl,
       undo.
 
-/* hipóteses a serem testadas */
+% hipóteses que serão testadas durante a execução do programa 
 
 hipotese(phantom)   :- phantom, !.
 hipotese(wraith)   :- wraith, !.
@@ -170,7 +172,7 @@ hipotese(roadster_2009) :- roadster_2009, !.
 hipotese(roadster) :- roadster, !.
 hipotese(desconhecido).
 
-/* Regras de identificação dos carros */
+% Regras de identificação dos carros 
 
 phantom :- gasolina,
          ingles,
@@ -1795,8 +1797,9 @@ corvette :- gasolina,
     v8,
     portas2.
 
-/* regras de classificação */
-%tipos de carros
+% regras de classificação 
+
+% regras de tipos de carros
 coupe :- verificar(é_coupe), !.
 sedan :- verificar(é_sedan), !.
 hatchback :- verificar(é_hatchback), !.
@@ -1808,28 +1811,26 @@ perua :- verificar(é_perua), !.
 muscle :- verificar(é_muscle), !.
 jipe :- verificar(é_jipe), !.
 
-%combustivel
+% regras de combustível
 gasolina :- verificar(é_gasolina), !.
 alcool :- verificar(é_alcool), !.
 diesel :- verificar(é_diesel), !.
 eletrico :- verificar(é_eletrico), !.
 
-%direção
-
+% regras de direção
 direcao_hidraulica :- verificar(direcao_é_hidraulica), !.
 direcao_eletrica :- verificar(direcao_é_eletrica), !.
 direcao_eletro_hidraulica :- verificar(direcao_é_eletro_hidraulica), !.
 direcao_mecanica :- verificar(direcao_é_mecanica), !.
 
-%cambio
+% regras de cambio
 cambio_automatico :- verificar(cambio_é_automatico), !.
 cambio_manual :- verificar(cambio_é_manual), !.
 cambio_semiautomatico :- verificar(cambio_é_semiautomatico), !.
 cambio_cvt :- verificar(cambio_é_cvt), !.
 cambio_eletrico :- verificar(cambio_é_eletrico), !.
 
-%marchas
-
+% regras de marchas
 marchas9 :- verificar(quantidades_marchas_é_9), !.
 marchas8 :- verificar(quantidades_marchas_é_8), !.
 marchas7 :- verificar(quantidades_marchas_é_7), !.
@@ -1841,15 +1842,13 @@ marchas2 :- verificar(quantidades_marchas_é_2), !.
 marchas1 :- verificar(quantidades_marchas_é_1), !.
 marchas_cvt :- verificar(marcha_unica_cvt_cone), !.
 
-%portas
-
+% regras de portas
 portas5 :- verificar(quantidade_portas_é_5), !.
 portas4 :- verificar(quantidade_portas_é_4), !.
 portas3 :- verificar(quantidade_portas_é_3), !.
 portas2 :- verificar(quantidade_portas_é_2), !.
 
-%motor
-
+% regras de motor
 w16 :- verificar(motor_é_w16), !.
 v12 :- verificar(motor_é_v12), !.
 v10 :- verificar(motor_é_v10), !.
@@ -1862,8 +1861,7 @@ cilindros3 :- verificar(motor_é_3_cilindros), !.
 cilindros2 :- verificar(motor_é_2_cilindros), !.
 motor_eletrico :- verificar(motor_é_eletrico), !.
 
-%fabrica
-
+% regras de fabrica
 rolls_royce :- verificar(fabrica_é_rolls_royce), !.
 peugeot :- verificar(fabrica_é_peugeot), !.
 maserati :- verificar(fabrica_é_maserati), !.
@@ -1886,8 +1884,7 @@ fiat :- verificar(fabrica_é_fiat), !.
 jeep :- verificar(fabrica_é_jeep), !.
 tesla :- verificar(fabrica_é_tesla), !.
 
-%pais de origem
-
+% regras de pais de origem
 ingles :- verificar(nascionalidade_é_ingles), !.
 frances :- verificar(nascionalidade_é_frances), !.
 italiana :- verificar(nascionalidade_é_italiano), !.
@@ -1896,7 +1893,7 @@ japones :- verificar(nascionalidade_é_japones), !.
 americano :- verificar(nascionalidade_é_americano), !.
 coreano :- verificar(nascionalidade_é_coreano), !.
 
-/* Como fazer perguntas */
+% Faz as perguntas
 perguntar(Questão) :-
     write('O Carro tem o seguinte atributo: '),
     write(Questão),
@@ -1910,7 +1907,6 @@ perguntar(Questão) :-
 
 :- dynamic yes/1,no/1.
 
-/* Como verificar algo */
 verificar(S) :-
    (yes(S)
     ->
@@ -1920,7 +1916,6 @@ verificar(S) :-
      fail ;
      perguntar(S))).
 
-/* Desfaz todas as afirmações sim / não */
 undo :- retract(yes(_)),fail.
 undo :- retract(no(_)),fail.
 undo.
