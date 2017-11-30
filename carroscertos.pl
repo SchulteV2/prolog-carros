@@ -1498,7 +1498,7 @@ azera :- gasolina,
     sedan,
     direcao_hidraulica,
     cambio_manual,
-    cambio_automatico
+    cambio_automatico,
     marchas6,
     verificar(tem_250cv),
     verificar(tem_motor_3ponto0),
